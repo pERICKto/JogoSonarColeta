@@ -13,23 +13,16 @@ for (var i = 0; i < total_angles; i++) {
     var _check_y = y + lengthdir_y(radius, _angle);
     
     // Verifica se a borda da onda atingiu uma parede
-    if (position_meeting(_check_x, _check_y, obj_wall)) {
+    if (position_meeting(_check_x, _check_y, Obj_wall)) {
         // Marca que esse ângulo já colidiu
         angles_hit[i] = true;
         
         // Cria um ponto de impacto na parede
-        instance_create_layer(_check_x, _check_y, "Instances", obj_sonar_ping);
+        instance_create_layer(_check_x, _check_y, "Instances", OBJ_ponto_interesse_errado);
     }
 }
 
 // Se o pulso atingiu o raio máximo, ele se destrói
 if (radius >= max_radius) {
-    instance_destroy();
-}
-
-// Faz o ponto sumir gradualmente
-alpha -= fade_speed;
-
-if (alpha <= 0) {
     instance_destroy();
 }

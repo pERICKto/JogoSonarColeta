@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Sonar_player",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_wall",
+  "eventList":[],
   "managed":true,
-  "name":"obj_Sonar_player",
+  "name":"Obj_wall",
   "overriddenProperties":[],
   "parent":{
     "name":"RadarSimulator",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite3",
-    "path":"sprites/Sprite3/Sprite3.yy",
+    "name":"SPR_sonar",
+    "path":"sprites/SPR_sonar/SPR_sonar.yy",
   },
   "spriteMaskId":null,
   "visible":true,
