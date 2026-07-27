@@ -19,11 +19,12 @@
   },
   "name":"RadarSimulator",
   "resources":[
+    {"id":{"name":"obj_Sonar_player","path":"objects/obj_Sonar_player/obj_Sonar_player.yy",},},
     {"id":{"name":"OBJcamera","path":"objects/OBJcamera/OBJcamera.yy",},},
     {"id":{"name":"OBJplayer","path":"objects/OBJplayer/OBJplayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"SPRsala1PLACEHOLDFR","path":"sprites/SPRsala1PLACEHOLDFR/SPRsala1PLACEHOLDFR.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
