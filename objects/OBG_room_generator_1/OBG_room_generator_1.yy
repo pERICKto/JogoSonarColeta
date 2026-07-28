@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"OBJS_escaneaveis",
+  "%Name":"OBG_room_generator_1",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OBJS_escaneaveis",
+  "name":"OBG_room_generator_1",
   "overriddenProperties":[],
   "parent":{
     "name":"RadarSimulator",
@@ -30,7 +28,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":null,
   "spriteMaskId":null,
   "visible":true,

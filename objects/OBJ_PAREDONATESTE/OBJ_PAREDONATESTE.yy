@@ -1,19 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"OBJS_escaneaveis",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"OBJ_PAREDONATESTE",
+  "eventList":[],
   "managed":true,
-  "name":"OBJS_escaneaveis",
+  "name":"OBJ_PAREDONATESTE",
   "overriddenProperties":[],
   "parent":{
     "name":"RadarSimulator",
     "path":"RadarSimulator.yyp",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"OBJS_escaneaveis",
+    "path":"objects/OBJS_escaneaveis/OBJS_escaneaveis.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite10",
+    "path":"sprites/Sprite10/Sprite10.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

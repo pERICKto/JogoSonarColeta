@@ -15,12 +15,14 @@ for (var i = 0; i < total_angles; i++) {
     if (_target != noone) {
         angles_hit[i] = true;
         
-        // Simples e direto: manda o bloco atingido ficar 100% visível!
+        // manda o bloco atingido ficar 100% visível!
         with (_target) {
             image_alpha = 1;
         }
     }
 }
+
+
 
 if (radius >= max_radius) {
     instance_destroy();
