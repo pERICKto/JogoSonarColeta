@@ -9,7 +9,10 @@
     "name":"RadarSimulator",
     "path":"RadarSimulator.yyp",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"OBJS_escaneaveis",
+    "path":"objects/OBJS_escaneaveis/OBJS_escaneaveis.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

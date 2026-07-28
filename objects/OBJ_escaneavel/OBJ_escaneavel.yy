@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"OBJ_ponto_interesse_errado",
+  "%Name":"OBJ_escaneavel",
   "eventList":[],
   "managed":true,
-  "name":"OBJ_ponto_interesse_errado",
+  "name":"OBJ_escaneavel",
   "overriddenProperties":[],
   "parent":{
     "name":"RadarSimulator",
     "path":"RadarSimulator.yyp",
   },
-  "parentObjectId":{
-    "name":"OBJS_escaneaveis",
-    "path":"objects/OBJS_escaneaveis/OBJS_escaneaveis.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"SPR_ponto_interesse",
-    "path":"sprites/SPR_ponto_interesse/SPR_ponto_interesse.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
