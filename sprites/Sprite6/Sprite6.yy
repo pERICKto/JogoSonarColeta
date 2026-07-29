@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"RadarSimulator",
-    "path":"RadarSimulator.yyp",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

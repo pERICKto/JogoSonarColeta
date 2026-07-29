@@ -10,8 +10,8 @@
   "name":"obj_Sonar_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"RadarSimulator",
-    "path":"RadarSimulator.yyp",
+    "name":"player",
+    "path":"folders/Objects/player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

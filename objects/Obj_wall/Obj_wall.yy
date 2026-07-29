@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_wall",
+  "%Name":"obj_wall",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_wall",
+  "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"RadarSimulator",
-    "path":"RadarSimulator.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"OBJS_escaneaveis",
-    "path":"objects/OBJS_escaneaveis/OBJS_escaneaveis.yy",
+    "name":"obj_m_escaneaveis",
+    "path":"objects/obj_m_escaneaveis/obj_m_escaneaveis.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
