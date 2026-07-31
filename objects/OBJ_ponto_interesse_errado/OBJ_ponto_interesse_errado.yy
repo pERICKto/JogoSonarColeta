@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"OBJ_ponto_interesse_errado",
+  "%Name":"obj_ponto_interesse_errado",
   "eventList":[],
   "managed":true,
-  "name":"OBJ_ponto_interesse_errado",
+  "name":"obj_ponto_interesse_errado",
   "overriddenProperties":[],
   "parent":{
     "name":"obj",
     "path":"folders/obj.yy",
   },
   "parentObjectId":{
-    "name":"OBJS_escaneaveis",
-    "path":"objects/OBJS_escaneaveis/OBJS_escaneaveis.yy",
+    "name":"obj_escaneaveis",
+    "path":"objects/obj_escaneaveis/obj_escaneaveis.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SPR_ponto_interesse",
-    "path":"sprites/SPR_ponto_interesse/SPR_ponto_interesse.yy",
+    "name":"spr_ponto_interesse",
+    "path":"sprites/spr_ponto_interesse/spr_ponto_interesse.yy",
   },
   "spriteMaskId":null,
   "visible":true,
