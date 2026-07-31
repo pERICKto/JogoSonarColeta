@@ -1,18 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"OBJ_ponto_interesse_errado",
-  "eventList":[],
+  "%Name":"OBG_room_generator_1",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"OBJ_ponto_interesse_errado",
+  "name":"OBG_room_generator_1",
   "overriddenProperties":[],
   "parent":{
     "name":"obj",
     "path":"folders/obj.yy",
   },
-  "parentObjectId":{
-    "name":"OBJS_escaneaveis",
-    "path":"objects/OBJS_escaneaveis/OBJS_escaneaveis.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"SPR_ponto_interesse",
-    "path":"sprites/SPR_ponto_interesse/SPR_ponto_interesse.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

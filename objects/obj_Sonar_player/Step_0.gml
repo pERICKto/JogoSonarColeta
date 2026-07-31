@@ -10,7 +10,7 @@ for (var i = 0; i < total_angles; i++) {
     var _check_y = y + lengthdir_y(radius, _angle);
     
     // Procura por blocos escaneáveis
-    var _target = instance_position(_check_x, _check_y, obj_m_escaneaveis);
+    var _target = instance_position(_check_x, _check_y, OBJS_escaneaveis);
     
     if (_target != noone) {
         angles_hit[i] = true;

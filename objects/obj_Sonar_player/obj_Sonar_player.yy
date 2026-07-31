@@ -10,8 +10,8 @@
   "name":"obj_Sonar_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"player",
-    "path":"folders/Objects/player.yy",
+    "name":"obj",
+    "path":"folders/obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
