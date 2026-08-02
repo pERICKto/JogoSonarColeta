@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"animation_transition",
+    "path":"sprites/animation_transition/animation_transition.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
