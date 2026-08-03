@@ -4,4 +4,5 @@ if (place_meeting(x,y,obj_player) && !instance_exists(obj_transition))
 	_transition.targetROOM_x = targetROOM_x;
 	_transition.targetROOM_y = targetROOM_y;
 	_transition.target_ROOM = target_ROOM;
+	instance_destroy();
 }
