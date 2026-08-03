@@ -1,0 +1,1 @@
+	draw_text(40, 32, "seu valor e " + string(global.r));

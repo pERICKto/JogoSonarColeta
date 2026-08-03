@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"obj",
-    "path":"folders/obj.yy",
+    "path":"folders/minimage/obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
