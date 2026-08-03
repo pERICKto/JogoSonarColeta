@@ -1,4 +1,4 @@
-radius += expand_speed;
+						radius += expand_speed;
 
 var total_angles = 360 / angle_step;
 
@@ -10,7 +10,7 @@ for (var i = 0; i < total_angles; i++) {
     var _check_y = y + lengthdir_y(radius, _angle);
     
     // Procura por blocos escaneáveis
-    var _target = instance_position(_check_x, _check_y, obj_escaneaveis);
+    var _target = instance_position(_check_x, _check_y, obj_wall);
     
     if (_target != noone) {
         angles_hit[i] = true;
@@ -18,12 +18,38 @@ for (var i = 0; i < total_angles; i++) {
         // manda o bloco atingido ficar 100% visível!
         with (_target) {
             image_alpha = 1;
+
         }
     }
+  var _target = instance_position(_check_x, _check_y, obj_ponto_interesse_errado)
+    
+    if (_target != noone) {
+        angles_hit[i] = true;
+        
+        // manda o bloco atingido ficar 100% visível!
+        with (_target) {
+            image_alpha = 1;
+
+        }
+    }
+	
+	var _target = instance_position(_check_x,_check_y, obj_ponto_interesse_certo)
+	
+	if (_target != noone) {
+        angles_hit[i] = true;
+        
+        // manda o bloco atingido ficar 100% visível!
+        with (_target) {
+            image_alpha = 1;
+
+        }
+    }
+ 	
 }
 
 
 
-if (radius >= max_radius) {
+if (radius >= max_radius)
+{
     instance_destroy();
 }
