@@ -1,5 +1,5 @@
 //marcar persist pq o objeto pode ser destruido antes da trnsicao de cenario ser concuira (:0)
 
-targetROOM_x = 1; 
-targetROOM_y = 1;
+targetROOM_x = 800; 
+targetROOM_y = 800;
 target_ROOM = rm_3_air; // selecao de sala
