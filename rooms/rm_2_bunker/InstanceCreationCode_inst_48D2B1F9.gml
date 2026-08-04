@@ -2,4 +2,4 @@
 
 targetROOM_x = 1; 
 targetROOM_y = 1;
-target_ROOM = room_3_air; // selecao de sala
+target_ROOM = rm_4_agua; // selecao de sala
