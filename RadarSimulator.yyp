@@ -51,7 +51,6 @@
     {"id":{"name":"spr_transition_block","path":"sprites/spr_transition_block/spr_transition_block.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
-    {"id":{"name":"SPRsala1PLACEHOLDFR","path":"sprites/SPRsala1PLACEHOLDFR/SPRsala1PLACEHOLDFR.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
