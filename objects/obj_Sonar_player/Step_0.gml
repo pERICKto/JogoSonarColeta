@@ -13,41 +13,23 @@ for (var i = 0; i < total_angles; i++) {
     var _target = instance_position(_check_x, _check_y, obj_wall);
     
     if (_target != noone) {
-        angles_hit[i] = true;
-        
-        // manda o bloco atingido ficar 100% visível!
-        with (_target) {
-            image_alpha = 1;
-
-        }
-    }
-  var _target = instance_position(_check_x, _check_y, obj_ponto_interesse_errado)
-    
-    if (_target != noone) {
-        angles_hit[i] = true;
-        
-        // manda o bloco atingido ficar 100% visível!
-        with (_target) {
-            image_alpha = 1;
-
-        }
+        angles_hit[i] = true;	//manda o obj ficar 100/100 visivel!
+        with (_target) {image_alpha = 1;}
     }
 	
-	var _target = instance_position(_check_x,_check_y, obj_ponto_interesse_certo)
+var _target = instance_position(_check_x, _check_y, obj_ponto_interesse_errado);
+if (_target != noone) {
+    angles_hit[i] = true;
+    with (_target) { image_alpha = 1; }  
+    cor_sonar = c_red; // Muda a variável do sonar para Vermelho
+}
 	
+	var _target = instance_position(_check_x,_check_y, obj_ponto_interesse_certo)	
 	if (_target != noone) {
         angles_hit[i] = true;
-        
-        // manda o bloco atingido ficar 100% visível!
-        with (_target) {
-            image_alpha = 1;
-
-        }
+        with (_target) {image_alpha = 1;}
     }
- 	
 }
-
-
 
 if (radius >= max_radius)
 {

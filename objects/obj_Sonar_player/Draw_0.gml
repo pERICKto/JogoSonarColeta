@@ -1,4 +1,4 @@
-draw_set_color(c_aqua);
+draw_set_color(cor_sonar);
 
 // Calcula o alpha (transparencia do ponto) baseado na porcentagem percorrida do raio
 var _alpha = 1 - (radius / max_radius);

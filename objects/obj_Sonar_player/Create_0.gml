@@ -1,4 +1,6 @@
 // Raio inicial e configurações do pulso
+ cor_sonar = c_aqua
+
 radius = 0;
 max_radius = 400;      
 expand_speed = 6;      
