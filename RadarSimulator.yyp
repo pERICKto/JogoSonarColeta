@@ -46,7 +46,6 @@
     {"id":{"name":"rm_4_agua","path":"rooms/rm_4_agua/rm_4_agua.yy",},},
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"id":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"animation_transition","path":"sprites/animation_transition/animation_transition.yy",},},
     {"id":{"name":"spr_background_2","path":"sprites/spr_background_2/spr_background_2.yy",},},
     {"id":{"name":"spr_background_4","path":"sprites/spr_background_4/spr_background_4.yy",},},
