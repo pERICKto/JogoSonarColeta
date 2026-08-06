@@ -9,4 +9,4 @@
 	for (var i = 0; i <room_width; i +=60){
 	draw_line_width(i,0,i,room_height,w);
 	}
-	
+	draw_set_alpha(1)

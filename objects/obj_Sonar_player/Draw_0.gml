@@ -15,3 +15,4 @@ if (radius > 1) {
 // reseta o alpha global para 1 no final do Draw
 // Se não resetar, outros objetos do jogo podem ficar transparentes também!
 draw_set_alpha(1);
+draw_set_colour(c_white);
