@@ -17,6 +17,7 @@
     {"name":"inst_B0550D6","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_48D2B1F9","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_4B9E2093","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
+    {"name":"inst_57B1B2CB","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -31,6 +32,7 @@
         {"$GMRInstance":"v4","%Name":"inst_B0550D6","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B0550D6","objectId":{"name":"obj_transition_BLOCK","path":"objects/obj_transition_BLOCK/obj_transition_BLOCK.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":56.3125,"x":1159.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_48D2B1F9","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_48D2B1F9","objectId":{"name":"obj_transition_BLOCK","path":"objects/obj_transition_BLOCK/obj_transition_BLOCK.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":70.0,"scaleY":2.5,"x":40.0,"y":860.0,},
         {"$GMRInstance":"v4","%Name":"inst_4B9E2093","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4B9E2093","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":270.0,"y":624.0,},
+        {"$GMRInstance":"v4","%Name":"inst_57B1B2CB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_57B1B2CB","objectId":{"name":"obj_grid_maker","path":"objects/obj_grid_maker/obj_grid_maker.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":540.0,"y":648.0,},
       ],"layers":[],"name":"Mario_Maker","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_2","assets":[],"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_2","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
