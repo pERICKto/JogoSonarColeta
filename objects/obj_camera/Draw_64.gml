@@ -8,6 +8,3 @@ draw_sprite(spr_HUD_placeholder_duh, 0,0,3); //3 pq tela tem 603pixels pra nao t
 //hud util tem 125 pixels
 
 
-//	radius scan
-//	total area scan
-//	distance
