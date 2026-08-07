@@ -67,3 +67,5 @@ for (var i = 1; i <= _segments; i++) {
 draw_set_color(c_white);
 draw_set_alpha(1.0);
 #endregion
+
+

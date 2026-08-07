@@ -52,6 +52,7 @@
     {"id":{"name":"spr_HUD_placeholder_duh","path":"sprites/spr_HUD_placeholder_duh/spr_HUD_placeholder_duh.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_ponto_interesse","path":"sprites/spr_ponto_interesse/spr_ponto_interesse.yy",},},
+    {"id":{"name":"spr_scanLine","path":"sprites/spr_scanLine/spr_scanLine.yy",},},
     {"id":{"name":"spr_transition_block","path":"sprites/spr_transition_block/spr_transition_block.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},

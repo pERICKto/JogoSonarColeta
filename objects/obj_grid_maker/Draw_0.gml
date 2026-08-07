@@ -10,9 +10,9 @@
 	}
 	draw_set_alpha(1);
 	
-	draw_set_alpha(0.5);
+	draw_set_alpha(0.5);	//circulo boladao da hud redonda
 	draw_set_colour(c_green);
-	draw_set_circle_precision(60);
+	draw_set_circle_precision(60);	
 	draw_circle(obj_player.x,obj_player.y,230,true);
 
 	draw_set_alpha(1)
