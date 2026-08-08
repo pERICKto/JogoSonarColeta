@@ -1,5 +1,5 @@
-global.certo = 0;
-global.errado = 0;
-global.valid = 0;
+global.agua = "";
+global.air = "";
+global.room = 0;
 
 

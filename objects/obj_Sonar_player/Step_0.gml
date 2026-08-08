@@ -17,14 +17,14 @@ for (var i = 0; i < total_angles; i++) {
         with (_target) {image_alpha = 1;}
     }
 	
-var _target = instance_position(_check_x, _check_y, obj_ponto_interesse_errado);
+var _target = instance_position(_check_x, _check_y, obj_ponto_interesse);
 if (_target != noone) {
     angles_hit[i] = true;
     with (_target) { image_alpha = 0.9; }  
     cor_sonar = c_red; // Muda a variável do sonar para Vermelho
 }
 	
-	var _target = instance_position(_check_x,_check_y, obj_ponto_interesse_certo)	
+	var _target = instance_position(_check_x,_check_y, obj_ponto_interesse)	
 	if (_target != noone) {
         angles_hit[i] = true;
         with (_target) {image_alpha = 0.8;}
