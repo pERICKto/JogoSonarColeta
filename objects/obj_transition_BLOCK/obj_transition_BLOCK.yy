@@ -34,5 +34,5 @@
     "path":"sprites/spr_transition_block/spr_transition_block.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -1,7 +1,9 @@
 // Raio inicial e configurações do pulso
+ cor_sonar = c_aqua
+
 radius = 0;
-max_radius = 400;      
-expand_speed = 6;      
+max_radius = 500;      
+expand_speed = 5;      
 wave_width = 8;         // Espessura do anel
 angle_step = 4;         // Precisão da checagem (a cada 4 graus = 90 raios no total)
 
