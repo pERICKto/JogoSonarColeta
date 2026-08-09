@@ -60,12 +60,12 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_2_bunker","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},},
-    {"roomId":{"name":"rm_4_agua","path":"rooms/rm_4_agua/rm_4_agua.yy",},},
-    {"roomId":{"name":"rm_1_terra","path":"rooms/rm_1_terra/rm_1_terra.yy",},},
-    {"roomId":{"name":"rm_3_air","path":"rooms/rm_3_air/rm_3_air.yy",},},
-    {"roomId":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
     {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
+    {"roomId":{"name":"rm_1_terra","path":"rooms/rm_1_terra/rm_1_terra.yy",},},
+    {"roomId":{"name":"rm_2_bunker","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},},
+    {"roomId":{"name":"rm_3_air","path":"rooms/rm_3_air/rm_3_air.yy",},},
+    {"roomId":{"name":"rm_4_agua","path":"rooms/rm_4_agua/rm_4_agua.yy",},},
+    {"roomId":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

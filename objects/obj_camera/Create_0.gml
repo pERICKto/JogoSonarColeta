@@ -4,3 +4,6 @@ height_ = camera_get_view_height(view_camera[0]);
 
 pcr = 100;
 raio = false;
+
+fallout_gui = false
+

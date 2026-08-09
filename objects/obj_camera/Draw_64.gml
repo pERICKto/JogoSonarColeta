@@ -4,8 +4,10 @@ draw_text(32,550, "esta inventando esses nomes");
 draw_text(650,32,"scan radius");
 draw_text(32,450,"precision radius"+ string(pcr));
 
+if (fallout_gui)==true{
 draw_sprite(spr_HUD_placeholder_duh, 0,0,3); //3 pq tela tem 603pixels pra nao ter mixel
 //hud util tem 125 pixels
+}
 	
 	
 #region	//sistema do mini monitor hud
