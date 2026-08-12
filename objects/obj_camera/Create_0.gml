@@ -1,9 +1,9 @@
 target_ = obj_player;
 width_ = camera_get_view_width(view_camera[0])
 height_ = camera_get_view_height(view_camera[0]);
-
-pcr = 100;
-raio = false;
+pcr = 0;
+cor_sonar_raio_hud = c_green
+pcr = clamp(pcr,0,100);
 
 fallout_gui = false
 

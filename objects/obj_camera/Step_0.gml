@@ -2,11 +2,29 @@ if (!instance_exists(target_)) exit;
 
 x = lerp(x, target_.x, 0.25);
 y = lerp(y, target_.y - height_ / 80, 0.25);
-
-if (raio==true){
-	pcr -= 10;
+// 1. SE O SONAR NÃO EXISTE (Recarregando)
+if (!instance_exists(obj_Sonar_player)) {
+    
+    if (pcr < 100) {
+        pcr += 0.5; // Recarrega até o máximo de 100
+    }
+    
+    cor_sonar_raio_hud = c_red; // Cor de recarga / inativo
+} 
+else {
+    
+    if (pcr > 0) {
+        pcr -= 1; // Gasta a energia enquanto for maior que 0
+    }
+    
 }
-	//configuracoes fase 1 terra
+
+if (pcr = 100){
+cor_sonar_raio_hud = c_green;
+}
+
+
+#region	//configuracoes fase 1 terra
 switch (room) {
 	 case rm_intro:camera_set_view_pos(view_camera[0], x - width_ / 2, y - height_ / 2.5);
 	
@@ -53,3 +71,5 @@ switch (room) {
 		fallout_gui = false 
     break;
 }
+
+#endregion
