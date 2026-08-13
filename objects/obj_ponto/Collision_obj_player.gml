@@ -1,4 +1,3 @@
-global.item_selecionado = item_id;
 array_push(global.usado, item_id);
 
 if (room == rm_1_terra)

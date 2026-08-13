@@ -40,7 +40,7 @@
     {"id":{"name":"obj_textos_boladoes","path":"objects/obj_textos_boladoes/obj_textos_boladoes.yy",},},
     {"id":{"name":"obj_transition_BLOCK","path":"objects/obj_transition_BLOCK/obj_transition_BLOCK.yy",},},
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
-    {"id":{"name":"obj_validado","path":"objects/obj_validado/obj_validado.yy",},},
+    {"id":{"name":"obj_valid","path":"objects/obj_valid/obj_valid.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"rm_1_terra","path":"rooms/rm_1_terra/rm_1_terra.yy",},},
     {"id":{"name":"rm_2_bunker","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},},

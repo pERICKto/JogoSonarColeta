@@ -21,8 +21,10 @@ x -= xspd
 }
 
 
-if (keyboard_check_pressed(vk_space)) {
+if (keyboard_check_pressed(vk_space))
+{
 	raio = true;
 		instance_create_layer(x, y, "Instances", obj_Sonar_player);
 			
 }
+

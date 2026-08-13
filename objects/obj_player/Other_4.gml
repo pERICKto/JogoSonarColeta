@@ -1,11 +1,8 @@
-if (room == rm_minigame)
+with (obj_ponto) 
 {
-    visible = false;
-    instance_deactivate_object(obj_player); // desliga Step e colisões também
-}
-
-if (room != rm_minigame)
-{
-    visible = true;
-    instance_activate_object(obj_player);
+	if (array_contains(global.usado, item_id))
+	{
+	instance_destroy();
+	}
+	
 }
