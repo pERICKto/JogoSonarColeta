@@ -9,4 +9,4 @@ player_frequencia = 0.05;
 player_velocidade = 2;
 
 fase = 0;
-tolerancia = 3; // margem de erro aceitável pra "encaixar"
+tolerancia = 2; // margem de erro aceitável pra "encaixar"
