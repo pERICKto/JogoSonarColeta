@@ -10,7 +10,7 @@ linhas[5] = { t1: "GPU...             ", c1: c_white, t2: "FAIL",        c2: c_r
 
 // Linhas que não tem "status" na frente, você deixa o t2 vazio ("")
 linhas[6] = { t1: "moving graphic cards to CPU",	c1: c_grey, t2: "",        c2: c_white };
-linhas[7] = { t1: "....SUCESS",						c1: c_lime,  t2: "",       c2: c_white };
+linhas[7] = { t1: "....SUCCESS",						c1: c_lime,  t2: "",       c2: c_white };
 linhas[8] = { t1: "controller...      ",			c1: c_white, t2: "FAIL",	c2: c_red };
 linhas[9] = { t1: "please connect a controller",	c1: c_yellow, t2: "",		c2: c_white};
 
