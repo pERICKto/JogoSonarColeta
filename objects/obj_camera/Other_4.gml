@@ -30,7 +30,7 @@ switch (room) {
             instance_create_layer(0, 0, "Instances", obj_grid_maker);
         }
         
-        // CORREÇÃO APLICADA: Bateria só é criada se não existir
+        // 
         if (!instance_exists(obj_batery)) {
             instance_create_layer(0, 0, "Instances", obj_batery);
         }
