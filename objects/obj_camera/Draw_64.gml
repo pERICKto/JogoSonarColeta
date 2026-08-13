@@ -21,12 +21,14 @@ var _mon_center_x = (_mon_x1 + _mon_x2) / 2;
 var _mon_center_y = (_mon_y1 + _mon_y2) / 2;
 
 // 2. Calcula a porcentagem onde o jogador está na sala (de 0.0 a 1.0)
+
 var _pct_x = clamp(obj_player.x / room_width, 0, 1);
 var _pct_y = clamp(obj_player.y / room_height, 0, 1);
 
 // 3. Converte essa porcentagem para a posição exata dentro do visor da HUD
 var _line_x = _mon_x1 + (_pct_x * (_mon_x2 - _mon_x1));
 var _line_y = _mon_y1 + (_pct_y * (_mon_y2 - _mon_y1));
+
 
 draw_set_color(c_lime); 
 draw_set_alpha(0.5);   
@@ -39,7 +41,8 @@ var _norm_y = (_line_y - _mon_center_y) / ((_mon_y2 - _mon_y1) / 2);
 var _prev_x = _mon_x1;
 var _prev_y = _line_y;
 
-for (var i = 1; i <= _segments; i++) {
+for (var i = 1; i <= _segments; i++)
+{
     var _t = i / _segments;
     var _curr_x = lerp(_mon_x1, _mon_x2, _t);
     var _parabola = 1 - 4 * sqr(_t - 0.5); 
@@ -55,7 +58,8 @@ var _norm_x = (_line_x - _mon_center_x) / ((_mon_x2 - _mon_x1) / 2);
 var _prev_x = _line_x;
 var _prev_y = _mon_y1;
 
-for (var i = 1; i <= _segments; i++) {
+for (var i = 1; i <= _segments; i++)
+{
     var _t = i / _segments;
     var _curr_y = lerp(_mon_y1, _mon_y2, _t);
     var _parabola = 1 - 4 * sqr(_t - 0.5);
@@ -68,6 +72,5 @@ for (var i = 1; i <= _segments; i++) {
 // 5. Reseta a cor e o alfa
 draw_set_color(c_white);
 draw_set_alpha(1.0);
+
 #endregion
-
-
