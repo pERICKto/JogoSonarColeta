@@ -27,6 +27,7 @@
   },
   "name":"RadarSimulator",
   "resources":[
+    {"id":{"name":"obj_batery","path":"objects/obj_batery/obj_batery.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_escaneaveis","path":"objects/obj_escaneaveis/obj_escaneaveis.yy",},},
     {"id":{"name":"obj_grid_maker","path":"objects/obj_grid_maker/obj_grid_maker.yy",},},
@@ -51,6 +52,7 @@
     {"id":{"name":"animation_transition","path":"sprites/animation_transition/animation_transition.yy",},},
     {"id":{"name":"spr_background_2","path":"sprites/spr_background_2/spr_background_2.yy",},},
     {"id":{"name":"spr_background_4","path":"sprites/spr_background_4/spr_background_4.yy",},},
+    {"id":{"name":"spr_batery","path":"sprites/spr_batery/spr_batery.yy",},},
     {"id":{"name":"spr_HUD_placeholder_duh","path":"sprites/spr_HUD_placeholder_duh/spr_HUD_placeholder_duh.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_ponto_interesse","path":"sprites/spr_ponto_interesse/spr_ponto_interesse.yy",},},

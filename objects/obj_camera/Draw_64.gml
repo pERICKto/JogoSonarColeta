@@ -9,7 +9,6 @@ draw_sprite(spr_HUD_placeholder_duh, 0,0,3); //3 pq tela tem 603pixels pra nao t
 //hud util tem 125 pixels
 }
 	
-	
 #region	//sistema do mini monitor hud
 // 1. Posição em pixels do visor escura do MONITOR no seu sprite da HUD (ajuste estes valores)
 var _mon_x1 = 350; // Borda esquerda da tela do monitor
