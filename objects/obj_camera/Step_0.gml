@@ -1,9 +1,15 @@
-if (!instance_exists(target_)) exit;
+if (!instance_exists(target_)) exit;		//camera e suavizacao de cxamera
 
 x = lerp(x, target_.x, 0.25);
 y = lerp(y, target_.y - height_ / 80, 0.25);
-// 1. SE O SONAR NÃO EXISTE (Recarregando)
-if (!instance_exists(obj_Sonar_player)) {
+
+//codigo sonar
+penalidade = obj_batery.batery_estado
+if(penalidade = 2){
+pcr = 50;
+}
+// 1. SE O SONAR NÃO EXISTE (Recarregando
+if (!instance_exists(obj_Sonar_player)) {		//se o jogador escanear:
     
     if (pcr < 100) {
         pcr += 1; // Recarrega até o máximo de 100

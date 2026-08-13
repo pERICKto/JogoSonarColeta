@@ -1,6 +1,7 @@
 // Raio inicial e configurações do pulso
+
  cor_sonar = c_aqua
-convert_radius = obj_camera.pcr //traz a variavel pcr da camera
+convert_radius = obj_camera.pcr //traz a variavel pcr da camera 
 
 radius = 0;
 max_radius = convert_radius *5;

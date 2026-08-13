@@ -29,6 +29,7 @@
   "resources":[
     {"id":{"name":"obj_batery","path":"objects/obj_batery/obj_batery.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_CENTRAL_BUNKER","path":"objects/obj_CENTRAL_BUNKER/obj_CENTRAL_BUNKER.yy",},},
     {"id":{"name":"obj_escaneaveis","path":"objects/obj_escaneaveis/obj_escaneaveis.yy",},},
     {"id":{"name":"obj_grid_maker","path":"objects/obj_grid_maker/obj_grid_maker.yy",},},
     {"id":{"name":"obj_HUD_inferior","path":"objects/obj_HUD_inferior/obj_HUD_inferior.yy",},},
