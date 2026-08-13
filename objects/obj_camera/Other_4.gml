@@ -30,11 +30,12 @@ switch (room) {
             instance_create_layer(0, 0, "Instances", obj_grid_maker);
         }
         
-        // 
+        //
+
         if (!instance_exists(obj_batery)) {
             instance_create_layer(0, 0, "Instances", obj_batery);
         }
-        
+
         fallout_gui = true;
         break;
         
