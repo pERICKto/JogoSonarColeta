@@ -21,20 +21,10 @@ x -= xspd
 }
 
 
-if (keyboard_check_pressed(vk_space)) {
+if (keyboard_check_pressed(vk_space))
+{
 	raio = true;
 		instance_create_layer(x, y, "Instances", obj_Sonar_player);
 			
 }
 
-if (global.valid == 1)
-	{
-		global.valid -= 1;
-		room_goto(rm_1_terra);
-	} 
-	
-	if (global.valid == 2 )
-	{
-		global.valid -= 2;
-		room_goto(rm_3_air);
-	}

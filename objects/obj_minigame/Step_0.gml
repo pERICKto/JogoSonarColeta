@@ -19,5 +19,16 @@ var diff_freq = abs(player_frequencia - alvo_frequencia);
 
 if (diff_amp <= tolerancia && diff_freq <= 0.003)
 {
-	room_goto(rm_2_bunker);
+	if (global.valid == 1)
+{
+		global.valid -= 1;
+		room_goto(rm_1_terra);
+} 
+	
+	else if (global.valid == 2)
+{
+		global.valid -= 2;
+		room_goto(rm_3_air);
+}
+
 }
