@@ -9,6 +9,7 @@
 //coontroller...	fail, please connect 
 
 //posicao inicial texto
+
 var _pos_x = 67;
 var _pos_y = 67;
 var _espaco_y = 25; 

@@ -1,5 +1,7 @@
 // t1 = Texto da esquerda | c1 = Cor da esquerda
 // t2 = Texto da direita  | c2 = Cor da direita
+cronometro = 0;
+
 
 linhas[0] = { t1: "hardware...        ", c1: c_white, t2: "operacional", c2: c_green };
 linhas[1] = { t1: "firmware...        ", c1: c_white, t2: "ok",          c2: c_green};

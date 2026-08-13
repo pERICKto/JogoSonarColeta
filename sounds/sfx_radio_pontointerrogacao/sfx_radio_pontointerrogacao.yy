@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"spawBUNKER_ou_desceramostra",
+  "%Name":"sfx_radio_pontointerrogacao",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":3.2778232,
+  "duration":3.8172336,
   "exportDir":"",
-  "name":"spawBUNKER_ou_desceramostra",
+  "name":"sfx_radio_pontointerrogacao",
   "parent":{
     "name":"ouvidinho_do_DJ",
     "path":"folders/ouvidinho_do_DJ.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"spawBUNKER_ou_desceramostra.WAV",
+  "soundFile":"sfx_radio_pontointerrogacao.WAV",
   "volume":1.0,
 }

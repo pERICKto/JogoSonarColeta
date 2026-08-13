@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"transicao_cenario",
+  "%Name":"sfx_amostra_bunker2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.5400454,
+  "duration":2.3510203,
   "exportDir":"",
-  "name":"transicao_cenario",
+  "name":"sfx_amostra_bunker2",
   "parent":{
     "name":"ouvidinho_do_DJ",
     "path":"folders/ouvidinho_do_DJ.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"transicao_cenario.WAV",
-  "volume":0.55,
+  "soundFile":"sfx_amostra_bunker2.WAV",
+  "volume":1.0,
 }

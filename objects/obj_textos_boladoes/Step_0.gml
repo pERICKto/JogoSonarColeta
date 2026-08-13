@@ -1,3 +1,4 @@
+
 if (linha_atual < array_length(linhas)) {
     
     var _pacote = linhas[linha_atual];

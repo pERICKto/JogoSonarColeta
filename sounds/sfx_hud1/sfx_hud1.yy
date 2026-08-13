@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"iniciando_jogo",
+  "%Name":"sfx_hud1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.1147392,
+  "duration":1.1876644,
   "exportDir":"",
-  "name":"iniciando_jogo",
+  "name":"sfx_hud1",
   "parent":{
     "name":"ouvidinho_do_DJ",
     "path":"folders/ouvidinho_do_DJ.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"iniciando_jogo.WAV",
+  "soundFile":"sfx_hud1.WAV",
   "volume":1.0,
 }

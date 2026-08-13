@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"amostra_bunker",
+  "%Name":"sfx_spawBUNKER_ou_desceramostra",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":3.7312472,
+  "duration":3.2778232,
   "exportDir":"",
-  "name":"amostra_bunker",
+  "name":"sfx_spawBUNKER_ou_desceramostra",
   "parent":{
     "name":"ouvidinho_do_DJ",
     "path":"folders/ouvidinho_do_DJ.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"amostra_bunker.WAV",
+  "soundFile":"sfx_spawBUNKER_ou_desceramostra.WAV",
   "volume":1.0,
 }

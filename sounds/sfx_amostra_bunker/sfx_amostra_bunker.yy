@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"radio_pontointerrogacao",
+  "%Name":"sfx_amostra_bunker",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":3.8172336,
+  "duration":3.7312472,
   "exportDir":"",
-  "name":"radio_pontointerrogacao",
+  "name":"sfx_amostra_bunker",
   "parent":{
     "name":"ouvidinho_do_DJ",
     "path":"folders/ouvidinho_do_DJ.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"radio_pontointerrogacao.WAV",
+  "soundFile":"sfx_amostra_bunker.WAV",
   "volume":1.0,
 }

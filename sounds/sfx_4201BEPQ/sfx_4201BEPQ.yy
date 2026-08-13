@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"_4201BEPQ",
+  "%Name":"sfx_4201BEPQ",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":4.080907,
   "exportDir":"",
-  "name":"_4201BEPQ",
+  "name":"sfx_4201BEPQ",
   "parent":{
     "name":"ouvidinho_do_DJ",
     "path":"folders/ouvidinho_do_DJ.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"_4201BEPQ.WAV",
+  "soundFile":"sfx_4201BEPQ.WAV",
   "volume":1.0,
 }

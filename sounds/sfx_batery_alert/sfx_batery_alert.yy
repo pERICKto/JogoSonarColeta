@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"hud1",
+  "%Name":"sfx_batery_alert",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.1876644,
+  "duration":0.54734695,
   "exportDir":"",
-  "name":"hud1",
+  "name":"sfx_batery_alert",
   "parent":{
     "name":"ouvidinho_do_DJ",
     "path":"folders/ouvidinho_do_DJ.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"hud1.WAV",
+  "soundFile":"sfx_batery_alert.wav",
   "volume":1.0,
 }

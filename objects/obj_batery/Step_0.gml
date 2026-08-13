@@ -9,11 +9,13 @@ if (instance_exists(obj_Sonar_player)) {
 
 
 if (batery_estado=1){
-
+	if(!audio_is_playing(sfx_alarm4)){
+	audio_play_sound(sfx_alarm4,1,false)
+	}
 }
 if (batery_estado=2){
 	if(tocou_aviso==false){
-		audio_play_sound(batery_alert,1,false);
+		audio_play_sound(sfx_batery_alert,1,false);
 	tocou_aviso=true;
 	}
 }

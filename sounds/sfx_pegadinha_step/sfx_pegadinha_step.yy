@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"pegadinha_step",
+  "%Name":"sfx_pegadinha_step",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":4.527891,
   "exportDir":"",
-  "name":"pegadinha_step",
+  "name":"sfx_pegadinha_step",
   "parent":{
     "name":"ouvidinho_do_DJ",
     "path":"folders/ouvidinho_do_DJ.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"pegadinha_step.WAV",
+  "soundFile":"sfx_pegadinha_step.WAV",
   "volume":1.0,
 }

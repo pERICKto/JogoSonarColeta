@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"batery_alert",
+  "%Name":"sfx_iniciando_jogo",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.54734695,
+  "duration":2.1147392,
   "exportDir":"",
-  "name":"batery_alert",
+  "name":"sfx_iniciando_jogo",
   "parent":{
     "name":"ouvidinho_do_DJ",
     "path":"folders/ouvidinho_do_DJ.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"batery_alert.wav",
-  "volume":1.0,
+  "soundFile":"sfx_iniciando_jogo.WAV",
+  "volume":0.16,
 }
