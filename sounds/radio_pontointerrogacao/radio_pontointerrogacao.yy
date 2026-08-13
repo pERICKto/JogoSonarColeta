@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"radio_pontointerrogacao",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.8172336,
+  "exportDir":"",
+  "name":"radio_pontointerrogacao",
+  "parent":{
+    "name":"ouvidinho_do_DJ",
+    "path":"folders/ouvidinho_do_DJ.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"radio_pontointerrogacao.WAV",
+  "volume":1.0,
+}

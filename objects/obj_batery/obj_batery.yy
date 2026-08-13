@@ -10,8 +10,8 @@
   "name":"obj_batery",
   "overriddenProperties":[],
   "parent":{
-    "name":"RadarSimulator",
-    "path":"RadarSimulator.yyp",
+    "name":"obj",
+    "path":"folders/obj.yy",
   },
   "parentObjectId":null,
   "persistent":true,

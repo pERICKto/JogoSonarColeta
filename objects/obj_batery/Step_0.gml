@@ -6,3 +6,24 @@ if(instance_exists(obj_CENTRAL_BUNKER)){
 if (instance_exists(obj_Sonar_player)) {
     batery -= consumo/20	//divite p or 100, pq o pcr geralmente eh 100
 }
+
+
+if (batery_estado=1){
+
+}
+if (batery_estado=2){
+	if(tocou_aviso==false){
+		audio_play_sound(batery_alert,1,false);
+	tocou_aviso=true;
+	}
+}
+else{	//caso a bateria volte a carregar!
+tocou_aviso=false
+}
+if (batery_estado=3){
+
+}
+if (batery_estado=4){
+
+}
+

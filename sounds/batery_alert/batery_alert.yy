@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"batery_alert",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.54734695,
+  "exportDir":"",
+  "name":"batery_alert",
+  "parent":{
+    "name":"ouvidinho_do_DJ",
+    "path":"folders/ouvidinho_do_DJ.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"batery_alert.wav",
+  "volume":1.0,
+}
