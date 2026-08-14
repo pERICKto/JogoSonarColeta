@@ -12,7 +12,6 @@
     {"name":"inst_4W","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_4B9E2093","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_6A32B67B","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
-    {"name":"inst_739F70C","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_2272D46","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
   ],
   "isDnd":false,
@@ -27,7 +26,6 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":30,"gridY":30,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_70BE1FDD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70BE1FDD","objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":300.0,"y":630.0,},
         {"$GMRInstance":"v4","%Name":"inst_6A32B67B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A32B67B","objectId":{"name":"obj_intro_crt","path":"objects/obj_intro_crt/obj_intro_crt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":180.0,},
-        {"$GMRInstance":"v4","%Name":"inst_739F70C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_739F70C","objectId":{"name":"obj_valid","path":"objects/obj_valid/obj_valid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":210.0,"y":180.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
   "name":"rm_2_bunker",

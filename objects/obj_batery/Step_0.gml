@@ -14,11 +14,13 @@ if (batery_estado=1){
 	}
 }
 if (batery_estado=2){
-	if(tocou_aviso==false){
+	if(tocou_aviso==false)
+	{
 		audio_play_sound(sfx_batery_alert,1,false);
 	tocou_aviso=true;
 	}
 }
+
 else{	//caso a bateria volte a carregar!
 tocou_aviso=false
 }
