@@ -2,8 +2,8 @@ if (keyboard_check(vk_up))    player_amplitude += 0.5;
 if (keyboard_check(vk_down))  player_amplitude -= 0.5;
 if (keyboard_check(vk_right)) player_frequencia += 0.0005;
 if (keyboard_check(vk_left))  player_frequencia -= 0.0005;
-
-vel = 2.5;
+if (keyboard_check(ord("w"))) vel += 0.5;
+if (keyboard_check(ord("S"))) vel -= 0.5;
 
 // se quiser controlar velocidade também, usa outro par de teclas
 // (ex: A/D, ou Page Up/Down) pra não conflitar com as 4 setas

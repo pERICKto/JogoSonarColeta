@@ -9,7 +9,8 @@ if(penalidade = 2){
 pcr = 50;
 }
 // 1. SE O SONAR NÃO EXISTE (Recarregando
-if (!instance_exists(obj_Sonar_player)) {		//se o jogador escanear:
+if (!instance_exists(obj_Sonar_player)) 
+{		//se o jogador escanear:
     
     if (pcr < 100) {
         pcr += 1; // Recarrega até o máximo de 100
@@ -17,15 +18,18 @@ if (!instance_exists(obj_Sonar_player)) {		//se o jogador escanear:
     
     cor_sonar_raio_hud = c_red; // Cor de recarga / inativo
 } 
-else {
+else 
+{
     
-    if (pcr > 0) {
+    if (pcr > 0) 
+	{
         pcr -= 1; // Gasta a energia enquanto for maior que 0
     }
     
 }
 
-if (pcr = 100){
+if (pcr = 100)
+{
 cor_sonar_raio_hud = c_green;
 }
 

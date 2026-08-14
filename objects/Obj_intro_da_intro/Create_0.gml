@@ -1,6 +1,7 @@
 tocou_ligando = false
 
-	if(tocou_ligando==false){
+	if(tocou_ligando==false)
+	{
 		audio_play_sound(sfx_iniciando_jogo,1,false);
 	tocou_ligando=true;
 	}

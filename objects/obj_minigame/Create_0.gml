@@ -7,6 +7,7 @@ alvo_velocidade = random_range(1, 3);
 player_amplitude = 30;
 player_frequencia = 0.05;
 player_velocidade = 2;
+vel = 1;
 
 fase = 0;
 tolerancia = 2; // margem de erro aceitável pra "encaixar"
