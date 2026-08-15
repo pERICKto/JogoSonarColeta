@@ -18,9 +18,12 @@ player_velocidade = clamp(player_velocidade, -10, 10);
 
 var diff_amp = abs(player_amplitude - alvo_amplitude);
 var diff_freq = abs(player_frequencia - alvo_frequencia);
+var diff_vel  = abs(player_velocidade - alvo_velocidade);
 var diff_fase = abs(player_fase - alvo_fase);
+diff_fase = diff_fase mod (2 * pi);
+if (diff_fase > pi) diff_fase = (2 * pi) - diff_fase;
 
-if (diff_amp <= tolerancia && diff_freq <= 0.003 && diff_fase <= 0.25)
+if (diff_amp <= tolerancia && diff_freq <= 0.003 && diff_fase <= 0.4 && diff_vel <= 0.2)
 {
 	if (global.valid == 1)
 {

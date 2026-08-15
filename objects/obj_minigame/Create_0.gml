@@ -11,4 +11,4 @@ player_velocidade = 2;
 
 alvo_fase = 0;
 player_fase = 0;
-tolerancia = 0; // margem de erro aceitável pra "encaixar"
+tolerancia = 1; // margem de erro aceitável pra "encaixar"
