@@ -31,6 +31,11 @@ switch (room) {
         }
         
         //
+
+				if (!instance_exists(obj_CENTRAL_BUNKER)) {
+            instance_create_layer(500, 500, "Instances", obj_CENTRAL_BUNKER);
+        }
+
 		if (!instance_exists(obj_batery)) {
             instance_create_layer(0, 0, "Instances", obj_batery);
         }

@@ -1,10 +1,10 @@
 
 consumo = obj_camera.pcr
 if(instance_exists(obj_CENTRAL_BUNKER)){
-	batery = obj_CENTRAL_BUNKER.recarga;
+	global.bateria_atual  = obj_CENTRAL_BUNKER.recarga;
 }
 if (instance_exists(obj_Sonar_player)) {
-    batery -= consumo/20	//divite p or 100, pq o pcr geralmente eh 100
+    global.bateria_atual  -= consumo/20	//divite p or 100, pq o pcr geralmente eh 100
 }
 
 
@@ -16,7 +16,7 @@ if (batery_estado=1){
 if (batery_estado=2){
 	if(tocou_aviso==false)
 	{
-		audio_play_sound(sfx_batery_alert,1,false);
+		audio_play_sound(sfx_batery_alert,1,false);		//BAAAAAAHN 
 	tocou_aviso=true;
 	}
 }

@@ -1,7 +1,9 @@
 
 if place_meeting(x,y,obj_player)
 {
-	recarga=4000
+	if(global.bateria_atual <=4000){
+	recarga+=10;
+	}
 	if (global.terra == valid_terra)
 	{
 	audio_play_sound(sfx_hud1,1,false);
@@ -14,4 +16,3 @@ if place_meeting(x,y,obj_player)
 	}
 
 }
-

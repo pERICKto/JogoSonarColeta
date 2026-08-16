@@ -12,8 +12,8 @@
   "name":"Obj_intro_da_intro",
   "overriddenProperties":[],
   "parent":{
-    "name":"RadarSimulator",
-    "path":"RadarSimulator.yyp",
+    "name":"obj",
+    "path":"folders/obj.yy",
   },
   "parentObjectId":null,
   "persistent":false,
