@@ -4,7 +4,7 @@
 convert_radius = obj_camera.pcr //traz a variavel pcr da camera 
 
 radius = 0;
-max_radius = convert_radius *5;
+max_radius = convert_radius *5;		//diminui o raio do sonar de acordo com o pcr
 expand_speed = 5;      
 wave_width = 8;         // Espessura do anel
 angle_step = 4;         // Precisão da checagem (a cada 4 graus = 90 raios no total)

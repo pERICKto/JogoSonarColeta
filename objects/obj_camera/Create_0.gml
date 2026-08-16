@@ -6,5 +6,5 @@ cor_sonar_raio_hud = c_green
 pcr = clamp(pcr,0,100);
 fallout_gui = false
 consumo_bateria = pcr * 1.5
-global.bateria_atual = 1000;
+global.bateria_atual = 1069;
 
