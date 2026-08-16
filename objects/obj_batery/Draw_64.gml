@@ -1,40 +1,18 @@
 
-if (global.bateria_atual  >= 0 && global.bateria_atual  <= 1000) {
+if (batery_estado = 1) {
     draw_sprite(spr_batery, 0, 10, 10);
-	batery_estado = 1;
 }
 
-if (global.bateria_atual  > 1000 && global.bateria_atual  <= 2000) {
+if (batery_estado = 2) {
     draw_sprite(spr_batery, 1, 10, 10);
-	batery_estado = 2;
+	
 }
-if (global.bateria_atual  > 2000 && global.bateria_atual  <= 3000) {
+if (batery_estado = 3) {
     draw_sprite(spr_batery, 2, 10, 10);
-	batery_estado = 3;
 }
 
-if (global.bateria_atual  > 3000) {
+if (batery_estado = 4) {
     draw_sprite(spr_batery, 3, 10,10 );
-	batery_estado = 4;
 }
 
 draw_text(400,64,global.bateria_atual )
-
-//if (batery >= 0 && batery <= 1000) {
-//    batery_estado=4;
-//}
-
-//if (batery > 1000 && batery <= 2000) {
-//    batery_estado=3;
-//}
-//if (batery > 2000 && batery <= 3000) {
-//    batery_estado=2;
-//}
-
-//if (batery > 3000) {
-//    batery_estado=1;
-//}
-
-//if (instance_exists(obj_Sonar_player)) {
-//    batery -= 20
-//}
