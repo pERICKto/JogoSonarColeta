@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_batery",
+  "%Name":"spr_batery_1",
   "bboxMode":0,
-  "bbox_bottom":80,
+  "bbox_bottom":49,
   "bbox_left":0,
-  "bbox_right":229,
+  "bbox_right":99,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -19,12 +19,12 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":81,
+  "height":50,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"dceed3c4-e9b0-42bd-9c40-8a92f845f2b0","blendMode":0,"displayName":"default","isLocked":false,"name":"dceed3c4-e9b0-42bd-9c40-8a92f845f2b0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_batery",
+  "name":"spr_batery_1",
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":0,
@@ -91,16 +91,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f5e13774-27e5-4f94-a53e-5350e4cef7f4","path":"sprites/spr_batery/spr_batery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f5e13774-27e5-4f94-a53e-5350e4cef7f4","path":"sprites/spr_batery_1/spr_batery_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"876aea87-a5b9-4a74-8726-1810b4b80d1c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"40b41db2-9423-49ef-aff5-0ba497a7f605","path":"sprites/spr_batery/spr_batery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"40b41db2-9423-49ef-aff5-0ba497a7f605","path":"sprites/spr_batery_1/spr_batery_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0d4036c1-667e-4123-b0d1-cf9d184408fb","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cfa460cf-e567-4407-8ace-2dc78f0a3317","path":"sprites/spr_batery/spr_batery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cfa460cf-e567-4407-8ace-2dc78f0a3317","path":"sprites/spr_batery_1/spr_batery_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"59149c67-73f2-40e7-810a-fbf0f9f4af03","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c77571b0-3f42-4b67-98b8-58e95af5b0cf","path":"sprites/spr_batery/spr_batery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c77571b0-3f42-4b67-98b8-58e95af5b0cf","path":"sprites/spr_batery_1/spr_batery_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"64cd90cb-f4ae-4f44-9d8c-108904da0201","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
@@ -117,5 +117,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":230,
+  "width":100,
 }

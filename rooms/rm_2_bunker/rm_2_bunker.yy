@@ -9,13 +9,11 @@
     {"name":"inst_1T","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_3A","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_4W","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
-    {"name":"inst_6A32B67B","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_70BE1FDD","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_35823CE9","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_139373B","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_1844EE15","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_EC27CA","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
-    {"name":"inst_3986719","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -24,8 +22,7 @@
         {"$GMRInstance":"v4","%Name":"inst_139373B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_139373B","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.112404,"scaleX":153.0,"scaleY":9.0,"x":1264.0,"y":351.96863,},
         {"$GMRInstance":"v4","%Name":"inst_1844EE15","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1844EE15","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":90.112404,"scaleX":161.0,"scaleY":5.0,"x":-32.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_EC27CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_EC27CA","objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.057159424,"scaleX":-153.0,"scaleY":5.0,"x":608.0,"y":928.0,},
-        {"$GMRInstance":"v4","%Name":"inst_3986719","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3986719","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":640.0,},
-      ],"layers":[],"name":"barier_block","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+      ],"layers":[],"name":"barier_block","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRInstanceLayer":"","%Name":"Mario_Maker","depth":100,"effectEnabled":true,"effectType":null,"gridX":6,"gridY":6,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_1T","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1T","objectId":{"name":"obj_transition_BLOCK","path":"objects/obj_transition_BLOCK/obj_transition_BLOCK.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.25,"scaleY":56.3125,"x":-12.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_3A","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3A","objectId":{"name":"obj_transition_BLOCK","path":"objects/obj_transition_BLOCK/obj_transition_BLOCK.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.25,"scaleY":56.3125,"x":1159.0,"y":0.0,},
@@ -33,7 +30,6 @@
       ],"layers":[],"name":"Mario_Maker","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":30,"gridY":30,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_70BE1FDD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70BE1FDD","objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":300.0,"y":630.0,},
-        {"$GMRInstance":"v4","%Name":"inst_6A32B67B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A32B67B","objectId":{"name":"obj_intro_crt","path":"objects/obj_intro_crt/obj_intro_crt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":180.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
   "name":"rm_2_bunker",
