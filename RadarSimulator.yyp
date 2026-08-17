@@ -18,7 +18,9 @@
     {"$GMFolder":"","%Name":"room","folderPath":"folders/room.yy","name":"room","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"spr","folderPath":"folders/spr.yy","name":"spr","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gm_filter_edgedetect-1.0.0","name":"io.gamemaker.gm_filter_edgedetect-1.0.0","path":"io.gamemaker.gm_filter_edgedetect-1.0.0.yyp",},
+  ],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -83,9 +85,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_2_bunker","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},},
     {"roomId":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"roomId":{"name":"rm_1_terra","path":"rooms/rm_1_terra/rm_1_terra.yy",},},
-    {"roomId":{"name":"rm_2_bunker","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},},
     {"roomId":{"name":"rm_3_air","path":"rooms/rm_3_air/rm_3_air.yy",},},
     {"roomId":{"name":"rm_4_agua","path":"rooms/rm_4_agua/rm_4_agua.yy",},},
     {"roomId":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
