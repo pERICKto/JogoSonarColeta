@@ -51,6 +51,7 @@
     {"id":{"name":"rm_3_air","path":"rooms/rm_3_air/rm_3_air.yy",},},
     {"id":{"name":"rm_4_agua","path":"rooms/rm_4_agua/rm_4_agua.yy",},},
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
+    {"id":{"name":"rm_minigame","path":"rooms/rm_minigame/rm_minigame.yy",},},
     {"id":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
     {"id":{"name":"sfx_37__Oxygen_Indicator_Sound","path":"sounds/sfx_37__Oxygen_Indicator_Sound/sfx_37__Oxygen_Indicator_Sound.yy",},},
     {"id":{"name":"sfx_39__Propeller_Noise","path":"sounds/sfx_39__Propeller_Noise/sfx_39__Propeller_Noise.yy",},},
@@ -91,6 +92,7 @@
     {"roomId":{"name":"rm_3_air","path":"rooms/rm_3_air/rm_3_air.yy",},},
     {"roomId":{"name":"rm_4_agua","path":"rooms/rm_4_agua/rm_4_agua.yy",},},
     {"roomId":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
+    {"roomId":{"name":"rm_minigame","path":"rooms/rm_minigame/rm_minigame.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
