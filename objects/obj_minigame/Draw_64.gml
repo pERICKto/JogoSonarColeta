@@ -1,4 +1,6 @@
-var centro_y = 200;
+if (!espera)
+{
+var centro_y = 150;
 var largura = room_width;
 var passo = 2; // menor = mais suave, maior = mais leve (performance)
 
@@ -18,8 +20,27 @@ for (var i = passo; i < largura; i += passo)
 }
 
 //// inicio da hud?
-
+ 
 draw_text(20, 60, "Amp  - player: " + string_format(player_amplitude, 1, 2) + "  alvo: " + string_format(alvo_amplitude, 1, 2));
 draw_text(20, 80, "Freq - player: " + string_format(player_frequencia, 1, 4) + "  alvo: " + string_format(alvo_frequencia, 1, 4));
 draw_text(20, 100, "Fase - player: " + string_format(player_fase, 1, 2) + "  alvo: " + string_format(alvo_fase, 1, 2));
 draw_text(20, 120, "vel - player: " + string_format(player_velocidade, 1, 2) + "  alvo: " + string_format(alvo_velocidade, 1, 2));
+}
+
+if (espera) 
+{
+	if (destino == rm_1_terra)
+	{
+		draw_text(100, 40, "Amostra de solo coletada: " + global.terra );
+		draw_text(100, 60, "volte para o laboratorio para mais detalhes");
+		draw_text(100, 80, "acione o sonar para confirmar");
+	}
+	else if (destino == rm_3_air)
+	if (destino == rm_1_terra)
+	{
+		draw_text(100,  40, "Amostra de planta coletada: " + global.air );
+		draw_text(100,  60, "volte para o laboratorio para mais detalhes");
+		draw_text(100,  80, "acione o sonar para confirmar");
+	}
+
+}

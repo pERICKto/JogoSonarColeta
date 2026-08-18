@@ -12,7 +12,6 @@ if place_meeting(x,y,obj_player)
 	else if (global.terra != valid_terra && global.terra != "")
 	{
 	audio_play_sound(sfx_Alarm5,1,false);
-	draw_text(50,50, "ERROUUUU!!!");
 	}
 
 }
