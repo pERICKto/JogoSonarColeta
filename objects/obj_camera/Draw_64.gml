@@ -1,5 +1,3 @@
-
-draw_text(32,550, "esta inventando esses nomes");
 draw_set_colour(cor_sonar_raio_hud);
 draw_text(650,32,"scan radius");
 draw_text(32,450,"precision radius"+ string(pcr));
@@ -69,4 +67,24 @@ draw_set_color(c_white);
 draw_set_alpha(1.0);
 #endregion
 
+//desenho da bateria
+//tem q ser aqui pq parece q o game maker coloca desenho por ordem de codigo e instanciacriada!
+if(instance_exists(obj_batery)){
+if (obj_batery.batery_estado = 1) {
+    draw_sprite(spr_batery_1, 0, 71, 514);
+}
 
+if (obj_batery.batery_estado = 2) {
+    draw_sprite(spr_batery_1, 1, 71, 514);
+	
+}
+if (obj_batery.batery_estado = 3) {
+    draw_sprite(spr_batery_1, 2, 71, 514);
+}
+
+if (obj_batery.batery_estado = 4) {
+    draw_sprite(spr_batery_1, 3, 71, 514);
+}
+
+draw_text(400,64,global.bateria_atual )
+}

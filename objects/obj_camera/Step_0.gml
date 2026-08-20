@@ -22,7 +22,6 @@ if (instance_exists(obj_Sonar_player)) {
     if (pcr > 0) {
         pcr -= 1;
     } else {
-        // (Opcional) Se o PCR zerar, destrói o Sonar para desligar ele à força!
         // instance_destroy(obj_Sonar_player);
     }
     
@@ -64,8 +63,9 @@ switch (room) {
     case rm_intro:
     case rm_1_terra:
     case rm_2_bunker:
+	
     case rm_3_air:
-        camera_set_view_pos(view_camera[0], x - width_ / 2, y - height_ / 2.5);
+        camera_set_view_pos(view_camera[0], x - width_ / 2, y - height_ / 2.63);
         break; 
         
     case rm_4_agua:
