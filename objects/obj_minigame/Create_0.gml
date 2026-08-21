@@ -16,3 +16,9 @@ tolerancia = 1.3; // margem de erro aceitável pra "encaixar"
 //confirmação pos minigame
 espera = false;
 destino = -1;
+
+//intro 
+intro = true;
+texto_intro = scribble("iniciando sincronização com o bunker...    [delay]\ncalibrando antena... [delay]\nsincronizando frequência... [delay][c_red] fail\n\niniciando sincronia manual... [dalay] iniciado");
+typist_intro = scribble_typist();
+typist_intro.in(0.5, 0);

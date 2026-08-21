@@ -14,9 +14,14 @@ else if (analise)
     {
         _string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay][/c]\n[c_red]ERRO... [delay][/c][c_green]\nPor gavor tente novamente...";
     }
+	else if (global.valid > 0)
+	{
+		_string = "[scale,0.7][c_green]Amostras analisadas... " + string(global.valid)
+	}
+	
     else
     {
-        _string = "[scale,0.7][c_green]Analisando drone...[delay] \nAmostras faltando... [delay] " + string(global.amostras + 1);
+        _string = "[scale,0.7][c_green]Analisando drone...[delay] \nAmostras faltando... [delay]3 ";
     }
 
     if (_string != amostra_cache)

@@ -23,9 +23,11 @@ if place_meeting(x, y, obj_player) {
                 if (!audio_is_playing(sfx_amostra_bunker)) {
                     audio_play_sound(sfx_spawBUNKER_ou_desceramostra, 3, false);
                     scan = true;
-                    
-                    
-                    estado_amostra = 2; // Finaliza o processo para não repetir
+                    // libera pra próxima amostra e soma no total de validadas
+					global.valid += 1;
+					global.terra = "";
+					scan = false;
+					estado_amostra = 0; // pronto pra validar a próxima
                 }
             }
         }
