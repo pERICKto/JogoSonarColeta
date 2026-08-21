@@ -6,17 +6,17 @@ else if (analise)
 {
     // encostando no bunker -> tem prioridade sobre o texto geral
     var _string;
-    if (global.terra == valid_terra)
+    if (global.terra == global.valid_terra)
     {
-        _string = "amostra validada!";
+        _string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nAmostra correta!";
     }
     else if (global.terra != "")
     {
-        _string = "amostra errada, procure outra.";
+        _string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay][/c]\n[c_red]ERRO... [delay][/c][c_green]\nPor gavor tente novamente...";
     }
     else
     {
-        _string = "nenhuma amostra coletada ainda.";
+        _string = "[scale,0.7][c_green]Analisando drone...[delay] \nAmostras faltando... [delay] " + string(global.amostras + 1);
     }
 
     if (_string != amostra_cache)
@@ -30,7 +30,7 @@ else if (analise)
 }
 else if (rm_check == 2)
 {
-    var _string = "local atual: laboratorio\nanalises:" + string(global.valid);
+    var _string = "[scale,0.7]local atual: laboratorio\nanalises:" + string(global.valid);
 
     if (_string != info_cache)
     {

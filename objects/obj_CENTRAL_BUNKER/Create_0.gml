@@ -1,7 +1,7 @@
 recarga = 1069;		//bateria = recarga, para nao spawnar com bateira 0!!
-valid_terra = "1101";
-valid_air = "";
-
+global.valid_terra = "1101";
+global.valid_air = "";
+global.amostras = 3;
 
 //flags de audio!
 estado_amostra = 0
