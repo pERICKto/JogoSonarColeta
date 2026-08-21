@@ -66,6 +66,7 @@
     {"id":{"name":"obj_ponto","path":"objects/obj_ponto/obj_ponto.yy",},},
     {"id":{"name":"obj_room_goto","path":"objects/obj_room_goto/obj_room_goto.yy",},},
     {"id":{"name":"obj_Sonar_player","path":"objects/obj_Sonar_player/obj_Sonar_player.yy",},},
+    {"id":{"name":"obj_terminal","path":"objects/obj_terminal/obj_terminal.yy",},},
     {"id":{"name":"obj_textos_boladoes","path":"objects/obj_textos_boladoes/obj_textos_boladoes.yy",},},
     {"id":{"name":"obj_textos_intro","path":"objects/obj_textos_intro/obj_textos_intro.yy",},},
     {"id":{"name":"obj_transition_BLOCK","path":"objects/obj_transition_BLOCK/obj_transition_BLOCK.yy",},},

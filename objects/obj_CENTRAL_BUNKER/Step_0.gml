@@ -32,7 +32,8 @@ if place_meeting(x, y, obj_player) {
     }
     
     //AMOSTRA ERRADA!
-    else if (global.terra != valid_terra && global.terra != "") {
+    else if (global.terra != valid_terra && global.terra != "")
+	{
         
         // Toca o alarme apenas se ele já não estiver tocando
         if (!audio_is_playing(sfx_Alarm5)) {
@@ -41,3 +42,4 @@ if place_meeting(x, y, obj_player) {
         
     }
 }
+

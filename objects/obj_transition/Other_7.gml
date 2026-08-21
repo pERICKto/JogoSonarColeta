@@ -3,4 +3,4 @@ room_goto(target_ROOM)
 obj_player.x = targetROOM_x;			//se desligar e fazer codigo para tocar imagem ao contrario podemos atingir um efeito maneiro
 obj_player.y = targetROOM_y;
 image_speed = -1;
-//instance_destroy()
+instance_destroy();
