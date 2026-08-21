@@ -65,11 +65,15 @@ switch (room) {
     case rm_2_bunker:
 	
     case rm_3_air:
-        camera_set_view_pos(view_camera[0], x - width_ / 2, y - height_ / 2.63);
+        var _view_x = clamp(x - width_ / 2, 0, room_width - width_);
+        var _view_y = clamp(y - height_ / 2.63, 0, room_height - height_);
+        camera_set_view_pos(view_camera[0], _view_x, _view_y);
         break; 
         
     case rm_4_agua:
     case rm_victory:
-        camera_set_view_pos(view_camera[0], x - width_ / 2, y - height_ / 2);
-        break;
+       var _view_x = clamp(x - width_ / 2, 0, room_width - width_);
+       var _view_y = clamp(y - height_ / 2, 0, room_height - height_);
+       camera_set_view_pos(view_camera[0], _view_x, _view_y);
+       break; 
 }

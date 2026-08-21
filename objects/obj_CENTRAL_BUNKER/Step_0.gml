@@ -6,8 +6,9 @@ if place_meeting(x, y, obj_player) {
     }
     
     // AMOSTRA CERTA!
-    if (global.terra == valid_terra) {    
-        
+    if (global.terra == valid_terra) 
+	{    
+        instance_destroy(inst_1T);
         if (scan == false) {
 
             if (estado_amostra == 0) {
@@ -22,7 +23,7 @@ if place_meeting(x, y, obj_player) {
                 if (!audio_is_playing(sfx_amostra_bunker)) {
                     audio_play_sound(sfx_spawBUNKER_ou_desceramostra, 3, false);
                     scan = true;
-                    instance_destroy(inst_1T);
+                    
                     
                     estado_amostra = 2; // Finaliza o processo para não repetir
                 }

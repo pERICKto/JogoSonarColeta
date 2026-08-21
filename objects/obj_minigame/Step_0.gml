@@ -26,7 +26,7 @@ var diff_fase = abs(player_fase - alvo_fase);
 diff_fase = diff_fase mod (2 * pi);
 if (diff_fase > pi) diff_fase = (2 * pi) - diff_fase;
 
-if (diff_amp <= tolerancia && diff_freq <= 0.009 && diff_fase <= 0.6 && diff_vel <= 0.3)
+if (diff_amp <= tolerancia && diff_freq <= 0.007 && diff_fase <= 0.5 && diff_vel <= 0.4)
 {
 	if (global.valid == 1)
 	{

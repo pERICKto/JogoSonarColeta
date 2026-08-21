@@ -11,7 +11,7 @@ player_velocidade = 2;
 
 alvo_fase = 0;
 player_fase = 0;
-tolerancia = 1.5; // margem de erro aceitável pra "encaixar"
+tolerancia = 1.3; // margem de erro aceitável pra "encaixar"
 
 //confirmação pos minigame
 espera = false;
