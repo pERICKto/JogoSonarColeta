@@ -35,6 +35,8 @@ else
             draw_text(100, 40, "Amostra de solo coletada: " + global.terra );
             draw_text(100, 60, "volte para o laboratorio para mais detalhes");
             draw_text(100, 80, "acione o sonar para confirmar");
+			draw_text(100, 100, "ou");
+			draw_text(100, 120, "direcionais para recusar amostra");
         }
         else if (destino == rm_3_air)
         {

@@ -16,7 +16,7 @@ if place_meeting(x, y, obj_player) {
                 estado_amostra = 1; // Trava e passa para a próxima fase
             }
             
-            // FASE 1: Espera o 1º som terminar para tocar o 2º
+      
             else if (estado_amostra == 1) {
                 
 

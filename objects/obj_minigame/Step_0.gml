@@ -48,8 +48,27 @@ else
     }
     else
     {
-        if (keyboard_check(vk_space))
+        // CONFIRMAR (Pegar a amostra - Botão de Espaço/Sonar)
+        if (keyboard_check_pressed(vk_space))
         {
+            // Agora sim, nós salvamos o item como "usado" pra ele não nascer mais!
+            if (destino == rm_1_terra) array_push(global.usado, global.terra);
+            if (destino == rm_3_air) array_push(global.usado, global.air);
+            
+            room_goto(destino);
+        }
+        
+        // RECUSAR (Descartar a amostra - Qualquer Direcional)
+        else if (keyboard_check_pressed(vk_left) || keyboard_check_pressed(vk_right) || keyboard_check_pressed(vk_up) || keyboard_check_pressed(vk_down))
+        {
+            // Limpa a amostra da mão do jogador e NÃO adiciona no global.usado
+            if (destino == rm_1_terra) {
+                global.terra = "";
+            } 
+            else if (destino == rm_3_air) {
+                global.air = "";
+            }
+            
             room_goto(destino);
         }
     }
