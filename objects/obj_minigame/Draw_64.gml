@@ -32,17 +32,24 @@ else
     {
         if (destino == rm_1_terra)
         {
-            draw_text(100, 40, "Amostra de solo coletada: " + global.terra );
-            draw_text(100, 60, "volte para o laboratorio para mais detalhes");
-            draw_text(100, 80, "acione o sonar para confirmar");
-			draw_text(100, 100, "ou");
-			draw_text(100, 120, "direcionais para recusar amostra");
+            // O \n serve para quebrar a linha se o texto binário for muito grande!
+            draw_text(100, 20, "DADOS: " + string(global.binario_atual)); 
+            
+            draw_text(100, 60, "Amostra de solo coletada: " + global.terra );
+            draw_text(100, 80, "volte para o laboratorio para mais detalhes");
+            draw_text(100, 100, "acione o sonar para confirmar");
+            draw_text(100, 120, "ou");
+            draw_text(100, 140, "direcionais para recusar amostra"); // Desci o Y desses textos um pouquinho
         }
         else if (destino == rm_3_air)
         {
-            draw_text(100, 40, "Amostra de planta coletada: " + global.air );
-            draw_text(100, 60, "volte para o laboratorio para mais detalhes");
-            draw_text(100, 80, "acione o sonar para confirmar");
+            draw_text(100, 20, "DADOS: " + string(global.binario_atual)); 
+            
+            draw_text(100, 60, "Amostra de planta coletada: " + global.air );
+            draw_text(100, 80, "volte para o laboratorio para mais detalhes");
+            draw_text(100, 100, "acione o sonar para confirmar");
+            draw_text(100, 120, "ou");
+            draw_text(100, 140, "direcionais para recusar amostra");
         }
     }
 }
