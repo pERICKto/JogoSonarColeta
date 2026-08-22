@@ -21,7 +21,7 @@ var _target = instance_position(_check_x, _check_y, obj_ponto);
 if (_target != noone) {
     angles_hit[i] = true;
     with (_target) { image_alpha = 0.9; }  
-    cor_sonar = c_red; // Muda a variável do sonar para Vermelho
+    cor_sonar = c_yellow; // Muda a variável do sonar para Vermelho
 }
 	
 	var _target = instance_position(_check_x,_check_y, obj_ponto)	
