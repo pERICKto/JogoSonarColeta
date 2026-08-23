@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_spawBUNKER_ou_desceramostra",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.2778232,
+  "exportDir":"",
+  "name":"sfx_spawBUNKER_ou_desceramostra",
+  "parent":{
+    "name":"ouvidinho_do_DJ",
+    "path":"folders/ouvidinho_do_DJ.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_spawBUNKER_ou_desceramostra.WAV",
+  "volume":1.0,
+}

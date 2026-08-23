@@ -1,55 +1,79 @@
-if (!instance_exists(target_)) exit;
-
-x = lerp(x, target_.x, 0.25);
-y = lerp(y, target_.y - height_ / 80, 0.25);
-
-if (raio==true){
-	pcr -= 10;
+// camera e suiavizacao
+if (instance_exists(target_)) {
+    x = lerp(x, target_.x, 0.25);
+    y = lerp(y, target_.y - height_ / 80, 0.25);
 }
-	//configuracoes fase 1 terra
-switch (room) {
-	 case rm_intro:camera_set_view_pos(view_camera[0], x - width_ / 2, y - height_ / 2.5);
-	
-	break; 
-    case rm_1_terra:camera_set_view_pos(view_camera[0], x - width_ / 2, y - height_ / 2.5);
-		if (!instance_exists(obj_grid_maker)) {
-			instance_create_layer(0, 0, "Instances", obj_grid_maker);
-		}
-			fallout_gui = true
-	break;
-	
-	//configuracoes fase 2 bunker
-    case rm_2_bunker:camera_set_view_pos(view_camera[0], x - width_ / 2, y - height_ / 2.5);
-					if (!instance_exists(obj_grid_maker)) {
-			   instance_create_layer(0, 0, "Instances", obj_grid_maker);
-			}
-				fallout_gui = true
-	break;
-	
-	//configuracoes fase 3 coleta de ar
-    case rm_3_air:camera_set_view_pos(view_camera[0], x - width_ / 2, y - height_ / 2.5);	
-        camera_set_view_pos(view_camera[0], x - width_ / 2, y - height_ / 2.5);
-			if (!instance_exists(obj_grid_maker)) {
-			   instance_create_layer(0, 0, "Instances", obj_grid_maker);
-			 }
-				fallout_gui = true
-	 break;
-	
-	//configuracoes fase 4 da [agua
-    case rm_4_agua:
-        camera_set_view_pos(view_camera[0], x - width_ / 2, y - height_ / 2);
-			if (!instance_exists(obj_grid_maker)) {
-		instance_create_layer(0, 0, "Instances", obj_grid_maker);
-	}
-		fallout_gui = true 
-    break;
 
-		//configuracoes sala de vitoria!!
-	    case rm_victory:
-        camera_set_view_pos(view_camera[0], x - width_ / 2, y - height_ / 2);
-			if (instance_exists(obj_grid_maker)) {
-		instance_destroy(obj_grid_maker);
-	}
-		fallout_gui = false 
-    break;
+
+//sonar, cooldown e penalidades no raio de precisao maximo
+// 1. Define qual é o limite máximo que o PCR pode recarregar
+var pcr_max = 100; // Começa assumindo 100 por padrão
+
+if (instance_exists(obj_batery)) {
+    penalidade = obj_batery.batery_estado;
+    if (penalidade == 4 || penalidade == 3) pcr_max = 100;
+    if (penalidade == 2) pcr_max = 70;
+    if (penalidade == 1) pcr_max = 50;
+}
+
+
+if (instance_exists(obj_Sonar_player)) {
+    // Gasta o PCR até chegar a zero
+    if (pcr > 0) {
+        pcr -= 1;
+    } else {
+        // instance_destroy(obj_Sonar_player);
+    }
+    
+
+}
+
+// 3. O SONAR ESTÁ DESLIGADO (Recarregando o PCR)
+else {
+    
+    // Recarrega mais rápido (3) se a bateria estiver boa, ou lento (1) se estiver ruim
+    var vel_recarga = (pcr_max == 100) ? 3 : 1; 
+    
+    // Se o PCR atual for menor que o limite máximo, ele recarrega
+    if (pcr < pcr_max) {
+        pcr += vel_recarga;
+    }
+    
+    // Trava de segurança: impede que o PCR passe do teto máximo se a bateria cair de repente
+    if (pcr > pcr_max) {
+        pcr = pcr_max;
+    }
+
+    // Cor do Sonar DESLIGADO/RECARREGANDO
+    cor_sonar_raio_hud = c_red; 
+}
+
+    // Cores do Sonar LIGADO
+    if (pcr >= 95) {
+        cor_sonar_raio_hud = c_green;
+    } 
+    else if (pcr >= 77) {
+        cor_sonar_raio_hud = c_yellow;
+    } 
+    else {
+        cor_sonar_raio_hud = c_red;
+    }
+
+switch (room) {
+    case rm_intro:
+    case rm_1_terra:
+    case rm_2_bunker:
+	
+    case rm_3_air:
+        var _view_x = clamp(x - width_ / 2, 0, room_width - width_);
+        var _view_y = clamp(y - height_ / 2.63, 0, room_height - height_);
+        camera_set_view_pos(view_camera[0], _view_x, _view_y);
+        break; 
+        
+    case rm_4_agua:
+    case rm_victory:
+       var _view_x = clamp(x - width_ / 2, 0, room_width - width_);
+       var _view_y = clamp(y - height_ / 2, 0, room_height - height_);
+       camera_set_view_pos(view_camera[0], _view_x, _view_y);
+       break; 
 }

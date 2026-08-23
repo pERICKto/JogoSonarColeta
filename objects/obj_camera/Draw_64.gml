@@ -1,6 +1,4 @@
-draw_text(32, 32, "certo " + string(global.certo));
-draw_text(32, 64, "errado " + string(global.errado));
-draw_text(32,550, "esta inventando esses nomes");
+draw_set_colour(cor_sonar_raio_hud);
 draw_text(650,32,"scan radius");
 draw_text(32,450,"precision radius"+ string(pcr));
 
@@ -9,12 +7,11 @@ draw_sprite(spr_HUD_placeholder_duh, 0,0,3); //3 pq tela tem 603pixels pra nao t
 //hud util tem 125 pixels
 }
 	
-	
 #region	//sistema do mini monitor hud
 // 1. Posição em pixels do visor escura do MONITOR no seu sprite da HUD (ajuste estes valores)
-var _mon_x1 = 350; // Borda esquerda da tela do monitor
+var _mon_x1 = 290; // Borda esquerda da tela do monitor
 var _mon_y1 = 510; // Borda superior da tela do monitor
-var _mon_x2 = 560; // Borda direita da tela do monitor
+var _mon_x2 = 510; // Borda direita da tela do monitor
 var _mon_y2 = 580; // Borda inferior da tela do monitor
 // Descobrindo o meio exato do monitor para saber onde a curva é maior
 var _mon_center_x = (_mon_x1 + _mon_x2) / 2;
@@ -70,4 +67,24 @@ draw_set_color(c_white);
 draw_set_alpha(1.0);
 #endregion
 
+//desenho da bateria
+//tem q ser aqui pq parece q o game maker coloca desenho por ordem de codigo e instanciacriada!
+if(instance_exists(obj_batery)){
+if (obj_batery.batery_estado = 1) {
+    draw_sprite(spr_batery_1, 0, 71, 514);
+}
 
+if (obj_batery.batery_estado = 2) {
+    draw_sprite(spr_batery_1, 1, 71, 514);
+	
+}
+if (obj_batery.batery_estado = 3) {
+    draw_sprite(spr_batery_1, 2, 71, 514);
+}
+
+if (obj_batery.batery_estado = 4) {
+    draw_sprite(spr_batery_1, 3, 71, 514);
+}
+
+draw_text(400,64,global.bateria_atual )
+}

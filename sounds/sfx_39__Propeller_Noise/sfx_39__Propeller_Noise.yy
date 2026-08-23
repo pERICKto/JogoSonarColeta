@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_39__Propeller_Noise",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":15.000454,
+  "exportDir":"",
+  "name":"sfx_39__Propeller_Noise",
+  "parent":{
+    "name":"ouvidinho_do_DJ",
+    "path":"folders/ouvidinho_do_DJ.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_39__Propeller_Noise.mp3",
+  "volume":1.0,
+}

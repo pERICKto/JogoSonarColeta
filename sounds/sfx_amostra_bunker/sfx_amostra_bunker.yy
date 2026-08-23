@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sfx_amostra_bunker",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.7312472,
+  "exportDir":"",
+  "name":"sfx_amostra_bunker",
+  "parent":{
+    "name":"ouvidinho_do_DJ",
+    "path":"folders/ouvidinho_do_DJ.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sfx_amostra_bunker.WAV",
+  "volume":0.56,
+}

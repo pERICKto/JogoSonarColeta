@@ -1,1 +1,2 @@
-spd = 40;
+spd = 30;
+bunker = false;
