@@ -1,2 +1,2 @@
-spd = 30;
+spd = 5;
 bunker = false;
