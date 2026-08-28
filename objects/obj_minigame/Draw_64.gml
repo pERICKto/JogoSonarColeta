@@ -30,10 +30,51 @@ else
     }
     else
     {
+		var _string;
         if (destino == rm_1_terra)
         {
-          texto_final_t.draw(100,80,typist_final_t);
-        }
+			if (typist_final_t.get_state() < 1)
+			{
+			texto_final_t.draw(100,80,typist_final_t);
+			}
+		
+		else	
+		{
+			if (global.terra == 1)
+			{
+				_string = "[c_green]01000011 01000001 : 00110110 00110000 %\n01001101 01000111 : 00110001 00110101 %\n01001011 : 00110000 00110101 %\n01001000 : 00110001 00110010 %\n01000001 01001100 : 00110000 00111000 %\nAnalise finalizada... [delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar"
+			}
+			else if (global.terra == 2)
+			{
+				_string = "[c_green]vidro"
+			}
+			else if (global.terra == 3)
+			{
+				_string = "[c_green]madeira"
+			}
+			else if (global.terra == 4)
+			{
+				_string = "[c_green]granito"
+			}
+			else if (global.terra == 5)
+			{
+				_string = "[c_green]calcario"
+			}
+			else
+			{
+				_string = "[c_green]poop"
+			}
+			 if (_string != binario_cache)
+			{
+			binario_cache = _string;
+	        texto_binario = scribble(_string);
+	        typist_binario.in(0.45, 0); // reinicia a digitação só quando a mensagem muda
+			}
+
+			texto_binario.draw(100, 80, typist_binario);
+		  }
+        
+		}
         else if (destino == rm_3_air)
         {
             texto_final_a.draw(100,80,typist_final_a);

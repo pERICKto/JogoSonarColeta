@@ -22,14 +22,19 @@ typist_intro.in(0.5, 0);
 //confirmação pos minigame
 espera = false;
 destino = -1;
-texto_final_t = scribble("[c_green]manual sync...    [delay]ok\nEncrypted massage... [delay]\nsending... [delay] \n\ndecoding... [delay]\nsample is ...   [delay][/c][c_yellow]\n\n" + string(global.terra) + " \n[blink]press sonar to confirm...");
+
+texto_final_t = scribble("[c_green]manual sync...    [delay]ok\nEncrypted massage... [delay]\nsending... [delay] \n\ndecoding... [delay] \n");
 typist_final_t = scribble_typist();
 typist_final_t.in(0.5, 0);
 
-texto_final_a = scribble("[c_green]manual sync...    [delay]ok\nEncrypted massage... [delay]\nsending... [delay] \n\ndecoding... [delay]\nsample is ...   [delay][/c][c_yellow]\n\n" + string(global.air) + " \n[blink]press sonar to confirm...");
+texto_final_a = scribble("[c_green]manual sync...    [delay]ok\nEncrypted massage... [delay]\nsending... [delay] \n\ndecoding... [delay] \n");
 typist_final_a = scribble_typist();
 typist_final_a.in(0.5, 0);
 
+//msg dos binario
+typist_binario = scribble_typist();
+texto_binario = undefined;
+binario_cache = "";
 
 
 

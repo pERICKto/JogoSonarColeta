@@ -32,17 +32,17 @@ else
 
         if (diff_amp <= tolerancia && diff_freq <= 0.007 && diff_fase <= 0.5 && diff_vel <= 0.4)
         {
-            if (global.valid == 1)
+            if (global.binary == 1)
             {
                 espera = true;
                 destino = rm_1_terra;
-                global.valid -= 1;
+                global.binary -= 1;
             }
-            else if (global.valid == 2)
+            else if (global.binary == 2)
             {
                 espera = true;
                 destino = rm_3_air;
-                global.valid -= 2;
+                global.binary -= 2;
             }
         }
     }
@@ -50,11 +50,7 @@ else
     {
         // CONFIRMAR (Pegar a amostra - Botão de Espaço/Sonar)
         if (keyboard_check_pressed(vk_space))
-        {
-            // Agora sim, nós salvamos o item como "usado" pra ele não nascer mais!
-            if (destino == rm_1_terra) array_push(global.usado, global.terra);
-            if (destino == rm_3_air) array_push(global.usado, global.air);
-            
+        { 
             room_goto(destino);
         }
         
