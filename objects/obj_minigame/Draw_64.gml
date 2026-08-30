@@ -6,7 +6,11 @@ else
 {
     if (!espera)
     {
-        var centro_y = 150;
+		//hud
+		draw_sprite(spr_hud_minimage,0,-20,3);
+        
+		//minigame
+		var centro_y = 150;
         var largura = room_width;
         var passo = 2;
         var y_alvo_ant = centro_y + alvo_amplitude * sin(alvo_frequencia * 0 + alvo_fase);
@@ -22,14 +26,19 @@ else
             y_alvo_ant = y_alvo;
             y_player_ant = y_player;
         }
+		//knobs
+		var _amp_state  = knob_state(player_amplitude, 5, 100);
+		var _freq_state = knob_state(player_frequencia, 0.01, 0.15);
+		var _vel_state  = knob_state(player_velocidade, 0, 5);
 
-        draw_text(20, 60, "Amp  - player: " + string_format(player_amplitude, 1, 2) + "  alvo: " + string_format(alvo_amplitude, 1, 2));
-        draw_text(20, 80, "Freq - player: " + string_format(player_frequencia, 1, 4) + "  alvo: " + string_format(alvo_frequencia, 1, 4));
-        draw_text(20, 100, "Fase - player: " + string_format(player_fase, 1, 2) + "  alvo: " + string_format(alvo_fase, 1, 2));
-        draw_text(20, 120, "vel - player: " + string_format(player_velocidade, 1, 2) + "  alvo: " + string_format(alvo_velocidade, 1, 2));
-    }
+		draw_sprite(spr_knob, _amp_state,  135, 544.5);
+		draw_sprite(spr_knob, _vel_state, 383, 545);
+		draw_sprite(spr_knob, _freq_state,  630, 544);
+		
+	}
     else
     {
+		sprite_delete(spr_hud_minimage);
 		var _string;
         if (destino == rm_1_terra)
         {

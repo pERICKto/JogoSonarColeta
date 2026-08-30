@@ -13,3 +13,4 @@ vel_h = 80;
 
 alvo_w = display_get_gui_width();
 alvo_h = display_get_gui_height();
+

@@ -19,9 +19,9 @@ else
         player_fase += player_velocidade * 0.05;  
         alvo_fase += alvo_velocidade * 0.05;
 
-        player_amplitude = clamp(player_amplitude, 5, 100);
-        player_frequencia = clamp(player_frequencia, 0.01, 0.15);
-        player_velocidade = clamp(player_velocidade, -10, 10);
+        player_amplitude = clamp(player_amplitude, 0, 80);
+        player_frequencia = clamp(player_frequencia, 0.01, 0.10);
+        player_velocidade = clamp(player_velocidade, 0, 5);
 
         var diff_amp = abs(player_amplitude - alvo_amplitude);
         var diff_freq = abs(player_frequencia - alvo_frequencia);

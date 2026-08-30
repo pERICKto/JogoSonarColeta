@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_knobs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_knobs",
+  "parent":{
+    "name":"obj",
+    "path":"folders/minimage/obj.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
