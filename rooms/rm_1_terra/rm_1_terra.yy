@@ -5552,6 +5552,7 @@
     {"name":"inst_65B67612","path":"rooms/rm_1_terra/rm_1_terra.yy",},
     {"name":"inst_9FB70BD","path":"rooms/rm_1_terra/rm_1_terra.yy",},
     {"name":"inst_4B815004","path":"rooms/rm_1_terra/rm_1_terra.yy",},
+    {"name":"inst_1B7E65E7","path":"rooms/rm_1_terra/rm_1_terra.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -11106,6 +11107,7 @@
         {"$GMRInstance":"v4","%Name":"inst_granito","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_granito","objectId":{"name":"obj_ponto","path":"objects/obj_ponto/obj_ponto.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_calcario","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_calcario","objectId":{"name":"obj_ponto","path":"objects/obj_ponto/obj_ponto.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":1312.0,},
         {"$GMRInstance":"v4","%Name":"inst_dejetos","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_dejetos","objectId":{"name":"obj_ponto","path":"objects/obj_ponto/obj_ponto.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":128.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1B7E65E7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1B7E65E7","objectId":{"name":"obj_intro_crt","path":"objects/obj_intro_crt/obj_intro_crt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":608.0,},
       ],"layers":[],"name":"pontos","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_background_2","path":"sprites/spr_background_2/spr_background_2.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

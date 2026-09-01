@@ -15,6 +15,7 @@
     {"name":"inst_4W","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_2E550BF0","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
     {"name":"inst_70E1CD9D","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
+    {"name":"inst_341884E0","path":"rooms/rm_2_bunker/rm_2_bunker.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -30,6 +31,7 @@
         {"$GMRInstance":"v4","%Name":"inst_4W","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4W","objectId":{"name":"obj_transition_BLOCK","path":"objects/obj_transition_BLOCK/obj_transition_BLOCK.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":70.0,"scaleY":3.25,"x":40.0,"y":860.0,},
         {"$GMRInstance":"v4","%Name":"inst_2E550BF0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E550BF0","objectId":{"name":"obj_CENTRAL_BUNKER","path":"objects/obj_CENTRAL_BUNKER/obj_CENTRAL_BUNKER.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.2054186,"scaleY":1.3615613,"x":366.0,"y":-48.0,},
         {"$GMRInstance":"v4","%Name":"inst_70E1CD9D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70E1CD9D","objectId":{"name":"obj_terminal","path":"objects/obj_terminal/obj_terminal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1140.0,"y":18.0,},
+        {"$GMRInstance":"v4","%Name":"inst_341884E0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_341884E0","objectId":{"name":"obj_intro_crt","path":"objects/obj_intro_crt/obj_intro_crt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":210.0,"y":162.0,},
       ],"layers":[],"name":"Mario_Maker","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
   "name":"rm_2_bunker",
