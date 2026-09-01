@@ -27,8 +27,9 @@ else
             y_player_ant = y_player;
         }
 		//knobs
-		var _amp_state  = knob_state(player_amplitude, 5, 100);
-		var _freq_state = knob_state(player_frequencia, 0.01, 0.15);
+	//knobs
+		var _amp_state  = knob_state(player_amplitude, 0, 80);      
+		var _freq_state = knob_state(player_frequencia, 0.01, 0.10);
 		var _vel_state  = knob_state(player_velocidade, 0, 5);
 
 		draw_sprite(spr_knob, _amp_state,  135, 544.5);
@@ -71,7 +72,7 @@ else
 			}
 			else
 			{
-				_string = "[c_green]organic material... \nbetter leave it alone"
+				_string = "[c_green]smelly organic material... \nbetter leave it alone"
 			}
 			 if (_string != binario_cache)
 			{
