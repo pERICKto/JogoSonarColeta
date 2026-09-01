@@ -78,3 +78,24 @@ switch (room) {
         camera_set_view_pos(view_camera[0], _view_x, _view_y);
         break;
 }
+
+//otimização dos ponto pq tem pra crlh
+for (var i = ds_list_size(lista_fade) - 1; i >= 0; i--)
+{
+    var _inst = lista_fade[| i];
+    
+    if (!instance_exists(_inst))
+    {
+        ds_list_delete(lista_fade, i);
+        continue;
+    }
+    
+    _inst.image_alpha -= 0.01;
+    
+    if (_inst.image_alpha <= 0)
+    {
+        _inst.image_alpha = 0;
+        _inst.fading = false; // libera pra poder entrar na lista de novo no futuro
+        ds_list_delete(lista_fade, i);
+    }
+}

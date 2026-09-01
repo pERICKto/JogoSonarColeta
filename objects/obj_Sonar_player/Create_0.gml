@@ -1,5 +1,5 @@
 // Raio inicial e configurações do pulso
-cor_sonar = c_aqua;
+cor_sonar = c_green;
 convert_radius = obj_camera.pcr; //traz a variavel pcr da camera 
 radius = 0;
 max_radius = convert_radius * 5;  //diminui o raio do sonar de acordo com o pcr

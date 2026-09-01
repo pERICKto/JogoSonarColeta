@@ -1,17 +1,3 @@
-if (room == rm_minigame)
-{
-    visible = false;
-    instance_deactivate_object(obj_camera); // desliga Step e colisões também
-} 
-
-else
-{
-	if (instance_exists(obj_player))
-	{
-    visible = true;
-    instance_activate_object(obj_camera);
-	}
-}
 
 // EVENTO: Other > Room Start
 
@@ -21,7 +7,6 @@ switch (room) {
         if (!instance_exists(obj_grid_maker)) {
             instance_create_layer(0, 0, "Instances", obj_grid_maker);
         }
-        fallout_gui = true;
         break;
         
     //configuracoes fase 2 bunker
@@ -40,7 +25,6 @@ switch (room) {
             instance_create_layer(0, 0, "Instances", obj_batery);
         }
 
-        fallout_gui = true;
         break;
         
     //configuracoes fase 3 coleta de ar
@@ -48,7 +32,6 @@ switch (room) {
         if (!instance_exists(obj_grid_maker)) {
             instance_create_layer(0, 0, "Instances", obj_grid_maker);
         }
-        fallout_gui = true;
         break;
         
     //configuracoes fase 4 da [agua
@@ -56,7 +39,6 @@ switch (room) {
         if (!instance_exists(obj_grid_maker)) {
             instance_create_layer(0, 0, "Instances", obj_grid_maker);
         }
-        fallout_gui = true; 
         break;
 
     //configuracoes sala de vitoria!!
@@ -64,6 +46,5 @@ switch (room) {
         if (instance_exists(obj_grid_maker)) {
             instance_destroy(obj_grid_maker);
         }
-        fallout_gui = false; 
         break;
 }

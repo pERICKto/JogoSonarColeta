@@ -1,4 +1,4 @@
 
-batery_estado = 2;
+batery_estado = 4;
 //flag da bateria
 tocou_aviso = false;

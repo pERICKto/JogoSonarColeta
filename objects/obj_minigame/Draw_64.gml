@@ -71,7 +71,7 @@ else
 			}
 			else
 			{
-				_string = "[c_green]poop"
+				_string = "[c_green]organic material... \nbetter leave it alone"
 			}
 			 if (_string != binario_cache)
 			{
