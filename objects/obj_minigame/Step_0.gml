@@ -19,9 +19,9 @@ else
         player_fase += player_velocidade * 0.05;  
         alvo_fase += alvo_velocidade * 0.05;
 
-        player_amplitude = clamp(player_amplitude, 5, 100);
-        player_frequencia = clamp(player_frequencia, 0.01, 0.15);
-        player_velocidade = clamp(player_velocidade, -10, 10);
+        player_amplitude = clamp(player_amplitude, 0, 80);
+        player_frequencia = clamp(player_frequencia, 0.01, 0.10);
+        player_velocidade = clamp(player_velocidade, 0, 5);
 
         var diff_amp = abs(player_amplitude - alvo_amplitude);
         var diff_freq = abs(player_frequencia - alvo_frequencia);
@@ -32,17 +32,17 @@ else
 
         if (diff_amp <= tolerancia && diff_freq <= 0.007 && diff_fase <= 0.5 && diff_vel <= 0.4)
         {
-            if (global.valid == 1)
+            if (global.binary == 1)
             {
                 espera = true;
                 destino = rm_1_terra;
-                global.valid -= 1;
+                global.binary -= 1;
             }
-            else if (global.valid == 2)
+            else if (global.binary == 2)
             {
                 espera = true;
                 destino = rm_3_air;
-                global.valid -= 2;
+                global.binary -= 2;
             }
         }
     }
@@ -50,11 +50,7 @@ else
     {
         // CONFIRMAR (Pegar a amostra - Botão de Espaço/Sonar)
         if (keyboard_check_pressed(vk_space))
-        {
-            // Agora sim, nós salvamos o item como "usado" pra ele não nascer mais!
-            if (destino == rm_1_terra) array_push(global.usado, global.terra);
-            if (destino == rm_3_air) array_push(global.usado, global.air);
-            
+        { 
             room_goto(destino);
         }
         

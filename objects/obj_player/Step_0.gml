@@ -1,45 +1,48 @@
-//direçao e mapeamento teclado
+//direção e mapeamento teclado
 right_key = keyboard_check_pressed(vk_right);
 left_key = keyboard_check_pressed(vk_left);
 up_key = keyboard_check_pressed(vk_up);
 dowm_key = keyboard_check_pressed(vk_down);
 
-if(place_meeting(x,y,obj_CENTRAL_BUNKER))
+//girar o sprite 90 graus a cada aperto
+if (right_key)
 {
-	bunker = true;
+    image_angle -= 90; // gira pra direita
+}
+if (left_key)
+{
+    image_angle += 90; // gira pra esquerda (volta)
 }
 
-
-//calcular direção(positiva ou negativa)
-xspd = (right_key - left_key) * spd;
-yspd = (dowm_key - up_key) * spd;
+//andar pra frente/trás na direção que o sprite tá olhando
+mov = (keyboard_check(vk_up) - keyboard_check(vk_down));
+xspd = lengthdir_x(spd, image_angle) * mov;
+yspd = lengthdir_y(spd, image_angle) * mov;
 
 //andar
 x += xspd;
 y += yspd;
 
-if (place_meeting(x,y +9,obj_wall)){
-y -= yspd
+if (place_meeting(x, y + 9, obj_wall))
+{
+    y -= yspd;
 }
-
-if (place_meeting(x -9,y,obj_wall)){
-x -= xspd
+if (place_meeting(x - 9, y, obj_wall))
+{
+    x -= xspd;
 }
-
 
 if (keyboard_check_pressed(vk_space))
 {
-	raio = true;
-		instance_create_layer(x, y, "Instances", obj_Sonar_player);
-			
+    raio = true;
+    instance_create_layer(x, y, "Instances", obj_Sonar_player);
 }
 
-if (place_meeting(x,y,obj_CENTRAL_BUNKER))
+if (place_meeting(x, y, obj_CENTRAL_BUNKER))
 {
-	bunker = true;
+    bunker = true;
 }
-
-else if (!place_meeting(x,y,obj_CENTRAL_BUNKER))
+else
 {
-	bunker = false;
+    bunker = false;
 }

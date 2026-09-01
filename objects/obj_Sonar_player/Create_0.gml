@@ -1,16 +1,33 @@
 // Raio inicial e configurações do pulso
-
- cor_sonar = c_aqua
-convert_radius = obj_camera.pcr //traz a variavel pcr da camera 
-
+cor_sonar = c_green;
+convert_radius = obj_camera.pcr; //traz a variavel pcr da camera 
 radius = 0;
-max_radius = convert_radius *5;		//diminui o raio do sonar de acordo com o pcr
+max_radius = convert_radius * 5;  //diminui o raio do sonar de acordo com o pcr
 expand_speed = 5;      
 wave_width = 8;         // Espessura do anel
-angle_step = 4;         // Precisão da checagem (a cada 4 graus = 90 raios no total)
-
-angles_hit = array_create(360 / angle_step, false);		// Lista para registrar quais angulos já colidiram nesta onda
-
-
 alpha = 1.0;
 fade_speed = 0.02; // Velocidade com que o ponto desaparece
+
+// busca ÚNICA: pega tudo que existe dentro do alcance máximo, uma vez só
+lista_paredes = ds_list_create();
+lista_pontos = ds_list_create();
+collision_circle_list(x, y, max_radius, obj_wall, false, true, lista_paredes, false);
+collision_circle_list(x, y, max_radius, obj_ponto, false, true, lista_pontos, false);
+
+n_paredes = ds_list_size(lista_paredes);
+dist_paredes = array_create(n_paredes);
+for (var i = 0; i < n_paredes; i++) {
+    dist_paredes[i] = point_distance(x, y, lista_paredes[| i].x, lista_paredes[| i].y);
+}
+
+n_pontos = ds_list_size(lista_pontos);
+dist_pontos = array_create(n_pontos);
+pontos_visiveis = array_create(n_pontos); // NOVO: se tem parede no caminho ou não
+for (var i = 0; i < n_pontos; i++) {
+    var _p = lista_pontos[| i];
+    dist_pontos[i] = point_distance(x, y, _p.x, _p.y);
+
+    // testa a linha reta entre o sonar e o ponto: bateu em obj_wall no meio do caminho?
+    var _bloqueado = collision_line(x, y, _p.x, _p.y, obj_wall, false, true);
+    pontos_visiveis[i] = (_bloqueado == noone);
+}

@@ -59,21 +59,43 @@ else {
         cor_sonar_raio_hud = c_red;
     }
 
+var hud_altura = 128;//tamanho hud
+
 switch (room) {
     case rm_intro:
     case rm_1_terra:
     case rm_2_bunker:
-	
     case rm_3_air:
         var _view_x = clamp(x - width_ / 2, 0, room_width - width_);
-        var _view_y = clamp(y - height_ / 2.63, 0, room_height - height_);
+        var _view_y = clamp(y - height_ / 2.63, 0, room_height - height_ + hud_altura);
         camera_set_view_pos(view_camera[0], _view_x, _view_y);
         break; 
         
     case rm_4_agua:
     case rm_victory:
-       var _view_x = clamp(x - width_ / 2, 0, room_width - width_);
-       var _view_y = clamp(y - height_ / 2, 0, room_height - height_);
-       camera_set_view_pos(view_camera[0], _view_x, _view_y);
-       break; 
+        var _view_x = clamp(x - width_ / 2, 0, room_width - width_);
+        var _view_y = clamp(y - height_ / 2, 0, room_height - height_ + hud_altura);
+        camera_set_view_pos(view_camera[0], _view_x, _view_y);
+        break;
+}
+
+//otimização dos ponto pq tem pra crlh
+for (var i = ds_list_size(lista_fade) - 1; i >= 0; i--)
+{
+    var _inst = lista_fade[| i];
+    
+    if (!instance_exists(_inst))
+    {
+        ds_list_delete(lista_fade, i);
+        continue;
+    }
+    
+    _inst.image_alpha -= 0.01;
+    
+    if (_inst.image_alpha <= 0)
+    {
+        _inst.image_alpha = 0;
+        _inst.fading = false; // libera pra poder entrar na lista de novo no futuro
+        ds_list_delete(lista_fade, i);
+    }
 }

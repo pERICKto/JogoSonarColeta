@@ -1,33 +1,28 @@
-						radius += expand_speed;
+radius += expand_speed;
 
-var total_angles = 360 / angle_step;
-
-for (var i = 0; i < total_angles; i++) {
-    if (angles_hit[i]) continue;
-    
-    var _angle = i * angle_step;
-    var _check_x = x + lengthdir_x(radius, _angle);
-    var _check_y = y + lengthdir_y(radius, _angle);
-    
-    // Procura por blocos escaneáveis
-    var _target = instance_position(_check_x, _check_y, obj_wall);
-    
-    if (_target != noone) {
-        angles_hit[i] = true;	//manda o obj ficar 100/100 visivel!
-        with (_target) {image_alpha = 1;}
+// PAREDES
+for (var i = 0; i < n_paredes; i++) {
+    if (dist_paredes[i] <= radius) {
+        var _inst = lista_paredes[| i];
+        if (instance_exists(_inst) && _inst.image_alpha != 1) {
+            _inst.image_alpha = 1;
+            if (!_inst.fading) {
+                _inst.fading = true;
+                ds_list_add(obj_camera.lista_fade, _inst);
+            }
+        }
     }
-	
-var _target = instance_position(_check_x, _check_y, obj_ponto);
-if (_target != noone) {
-    angles_hit[i] = true;
-    with (_target) { image_alpha = 0.9; }  
-    cor_sonar = c_yellow; // Muda a variável do sonar para Vermelho
 }
-	
-	var _target = instance_position(_check_x,_check_y, obj_ponto)	
-	if (_target != noone) {
-        angles_hit[i] = true;
-        with (_target) {image_alpha = 0.8;}
+
+// PONTOS
+for (var i = 0; i < n_pontos; i++) {
+    // só revela se: já entrou no raio E não tem parede bloqueando a visão
+    if (dist_pontos[i] <= radius && pontos_visiveis[i]) {
+        var _inst = lista_pontos[| i];
+        if (instance_exists(_inst) && _inst.image_alpha != 0.9) {
+            _inst.image_alpha = 0.9;
+            cor_sonar = c_yellow; // Muda pra amarelo
+        }
     }
 }
 

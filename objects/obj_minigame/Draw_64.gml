@@ -6,7 +6,11 @@ else
 {
     if (!espera)
     {
-        var centro_y = 150;
+		//hud
+		draw_sprite(spr_hud_minimage,0,-20,3);
+        
+		//minigame
+		var centro_y = 150;
         var largura = room_width;
         var passo = 2;
         var y_alvo_ant = centro_y + alvo_amplitude * sin(alvo_frequencia * 0 + alvo_fase);
@@ -22,34 +26,68 @@ else
             y_alvo_ant = y_alvo;
             y_player_ant = y_player;
         }
+		//knobs
+	//knobs
+		var _amp_state  = knob_state(player_amplitude, 0, 80);      
+		var _freq_state = knob_state(player_frequencia, 0.01, 0.10);
+		var _vel_state  = knob_state(player_velocidade, 0, 5);
 
-        draw_text(20, 60, "Amp  - player: " + string_format(player_amplitude, 1, 2) + "  alvo: " + string_format(alvo_amplitude, 1, 2));
-        draw_text(20, 80, "Freq - player: " + string_format(player_frequencia, 1, 4) + "  alvo: " + string_format(alvo_frequencia, 1, 4));
-        draw_text(20, 100, "Fase - player: " + string_format(player_fase, 1, 2) + "  alvo: " + string_format(alvo_fase, 1, 2));
-        draw_text(20, 120, "vel - player: " + string_format(player_velocidade, 1, 2) + "  alvo: " + string_format(alvo_velocidade, 1, 2));
-    }
+		draw_sprite(spr_knob, _amp_state,  135, 544.5);
+		draw_sprite(spr_knob, _vel_state, 383, 545);
+		draw_sprite(spr_knob, _freq_state,  630, 544);
+		
+	}
     else
     {
+		sprite_delete(spr_hud_minimage);
+		var _string;
         if (destino == rm_1_terra)
         {
-            // O \n serve para quebrar a linha se o texto binário for muito grande!
-            draw_text(100, 20, "DADOS: " + string(global.binario_atual)); 
-            
-            draw_text(100, 60, "Amostra de solo coletada: " + global.terra );
-            draw_text(100, 80, "volte para o laboratorio para mais detalhes");
-            draw_text(100, 100, "acione o sonar para confirmar");
-            draw_text(100, 120, "ou");
-            draw_text(100, 140, "direcionais para recusar amostra"); // Desci o Y desses textos um pouquinho
-        }
+			if (typist_final_t.get_state() < 1)
+			{
+			texto_final_t.draw(100,80,typist_final_t);
+			}
+		
+		else	
+		{
+			if (global.terra == 1)
+			{
+				_string = "[c_green]01000011 01000001 : 00110110 00110000 %\n01001101 01000111 : 00110001 00110101 %\n01001011 : 00110000 00110101 %\n01001000 : 00110001 00110010 %\n01000001 01001100 : 00110000 00111000 %\nAnalise finalizada... [delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar"
+			}
+			else if (global.terra == 2)
+			{
+				_string = "[c_green]vidro"
+			}
+			else if (global.terra == 3)
+			{
+				_string = "[c_green]madeira"
+			}
+			else if (global.terra == 4)
+			{
+				_string = "[c_green]granito"
+			}
+			else if (global.terra == 5)
+			{
+				_string = "[c_green]calcario"
+			}
+			else
+			{
+				_string = "[c_green]smelly organic material... \nbetter leave it alone"
+			}
+			 if (_string != binario_cache)
+			{
+			binario_cache = _string;
+	        texto_binario = scribble(_string);
+	        typist_binario.in(0.45, 0); // reinicia a digitação só quando a mensagem muda
+			}
+
+			texto_binario.draw(100, 80, typist_binario);
+		  }
+        
+		}
         else if (destino == rm_3_air)
         {
-            draw_text(100, 20, "DADOS: " + string(global.binario_atual)); 
-            
-            draw_text(100, 60, "Amostra de planta coletada: " + global.air );
-            draw_text(100, 80, "volte para o laboratorio para mais detalhes");
-            draw_text(100, 100, "acione o sonar para confirmar");
-            draw_text(100, 120, "ou");
-            draw_text(100, 140, "direcionais para recusar amostra");
+            texto_final_a.draw(100,80,typist_final_a);
         }
     }
 }
