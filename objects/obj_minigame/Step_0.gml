@@ -44,6 +44,12 @@ else
                 destino = rm_3_air;
                 global.binary -= 2;
             }
+			 else if (global.binary == 3)
+            {
+                espera = true;
+                destino = rm_4_agua;
+                global.binary -= 3;
+            }
         }
     }
     else
@@ -58,11 +64,17 @@ else
         else if (keyboard_check_pressed(vk_left) || keyboard_check_pressed(vk_right) || keyboard_check_pressed(vk_up) || keyboard_check_pressed(vk_down))
         {
             // Limpa a amostra da mão do jogador e NÃO adiciona no global.usado
-            if (destino == rm_1_terra) {
+            if (destino == rm_1_terra) 
+			{
                 global.terra = "";
             } 
-            else if (destino == rm_3_air) {
+            else if (destino == rm_3_air) 
+			{
                 global.air = "";
+            }
+			 else if (destino == rm_4_agua) 
+			{
+                global.water = "";
             }
             
             room_goto(destino);

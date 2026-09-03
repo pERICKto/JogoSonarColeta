@@ -1,4 +1,4 @@
-global.agua = "";
+global.water = "";
 global.terra = "";
 global.air = "";
 global.valid = 0;

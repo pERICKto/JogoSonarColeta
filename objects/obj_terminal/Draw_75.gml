@@ -14,6 +14,10 @@ else if (analise)
 	{
 		 _string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nAmostra correta!";
 	}
+	else if (global.water == global.valid_water)
+	{
+		_string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nAmostra correta!";
+	}
     else if (global.terra != "")
     {
 		global.erro = true; //pra mudar o sprite da hud
@@ -42,6 +46,10 @@ else if (analise)
 	{
 		
 	}
+	else if (global.water != "")
+	{
+	
+	}
 	else if (global.valid > 0)
 	{
 		_string = "[scale,0.7][c_green]Analisando drone...[delay] \nAmostras analisadas:\n " + string(global.valid);
@@ -49,7 +57,7 @@ else if (analise)
 	
     else
     {
-        _string = "[scale,0.7][c_green]Analisando drone...[delay] \nAmostras faltando:\n [delay][c_yellow]3 ";
+        _string = "[scale,0.7][c_green]Analisando drone...[delay] \nAmostras faltando:\n[delay][c_yellow]3\ncarregando drone... ";
     }
 
     if (_string != amostra_cache)
