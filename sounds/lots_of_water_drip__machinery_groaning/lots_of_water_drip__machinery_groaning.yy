@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"lots_of_water_drip__machinery_groaning",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":177.89388,
+  "exportDir":"",
+  "name":"lots_of_water_drip__machinery_groaning",
+  "parent":{
+    "name":"Ambient Sounds",
+    "path":"folders/ouvidinho_do_DJ/alien/Ambient Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"lots_of_water_drip__machinery_groaning.mp3",
+  "volume":1.0,
+}

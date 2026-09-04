@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"MiniDV_Tape_Eject_1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":16.629343,
+  "exportDir":"",
+  "name":"MiniDV_Tape_Eject_1",
+  "parent":{
+    "name":"gerais",
+    "path":"folders/ouvidinho_do_DJ/gerais.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"MiniDV_Tape_Eject_1.wav",
+  "volume":1.0,
+}

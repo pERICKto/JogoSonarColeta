@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"CAMERA_VIDEO_LOA_60105303",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":5.05483,
+  "exportDir":"",
+  "name":"CAMERA_VIDEO_LOA_60105303",
+  "parent":{
+    "name":"gerais",
+    "path":"folders/ouvidinho_do_DJ/gerais.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"CAMERA_VIDEO_LOA_60105303.wav",
+  "volume":1.0,
+}

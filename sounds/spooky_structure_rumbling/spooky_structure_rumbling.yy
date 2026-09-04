@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"spooky_structure_rumbling",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":27.951021,
+  "exportDir":"",
+  "name":"spooky_structure_rumbling",
+  "parent":{
+    "name":"Ambient Sounds",
+    "path":"folders/ouvidinho_do_DJ/alien/Ambient Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"spooky_structure_rumbling.mp3",
+  "volume":1.0,
+}

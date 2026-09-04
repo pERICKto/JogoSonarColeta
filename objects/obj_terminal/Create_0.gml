@@ -17,4 +17,5 @@ if (!instance_exists(obj_HUD_inferior))
 {
     instance_create_layer(0, 0, "Instances", obj_HUD_inferior);
 }
+
 global.erro = false; // controle da hud vermelha

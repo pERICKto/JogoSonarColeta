@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"abandoned_ship_halls",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":141.11346,
+  "exportDir":"",
+  "name":"abandoned_ship_halls",
+  "parent":{
+    "name":"Ambient Sounds",
+    "path":"folders/ouvidinho_do_DJ/alien/Ambient Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"abandoned_ship_halls.mp3",
+  "volume":1.0,
+}

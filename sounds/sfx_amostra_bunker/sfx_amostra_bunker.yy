@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sfx_amostra_bunker",
   "parent":{
-    "name":"ouvidinho_do_DJ",
-    "path":"folders/ouvidinho_do_DJ.yy",
+    "name":"gerais",
+    "path":"folders/ouvidinho_do_DJ/gerais.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

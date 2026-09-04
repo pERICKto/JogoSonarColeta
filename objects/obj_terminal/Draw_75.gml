@@ -66,11 +66,13 @@ else if (analise)
         texto_amostra = scribble(_string);
         typist_amostra.in(0.45, 0); // reinicia a digitação só quando a mensagem muda
     }
-
+	
     texto_amostra.draw(552, 515, typist_amostra);
+	global.lendo = (typist_amostra.get_state() != 1); // trava enquanto não terminou de digitar
+
 	if (typist_amostra.get_state() = 1) //reseta o erro pra hud voltar ao normal
 	{
-		global.erro = false;
+    global.erro = false;
 	}
 }
 else if (rm_check == 2)
@@ -99,6 +101,17 @@ else if (rm_check == 1)
 else if (rm_check == 3)
 {
     var _string = "[scale,0.7][c_green]local atual:\n[c_yellow]Jardim principal[/c]\n[c_green]objetivo: [/c][delay]\n[c_yellow]encontar planta adequada\nlevar amostra para o bunker";
+
+    if (_string != info_cache)
+    {
+        info_cache = _string;
+        texto_info = scribble(_string);
+    }
+	texto_info.draw(552, 515, typist);
+}
+else if (rm_check == 4)
+{
+    var _string = "[scale,0.7][c_green]local atual:\n[c_yellow]reservatorios de analise[/c]\n[c_green]objetivo: [/c][delay]\n[c_yellow]checar o nivel de agua\nlevar agua para o bunker";
 
     if (_string != info_cache)
     {

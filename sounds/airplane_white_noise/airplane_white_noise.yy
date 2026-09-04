@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"airplane_white_noise",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":141.97551,
+  "exportDir":"",
+  "name":"airplane_white_noise",
+  "parent":{
+    "name":"Ambient Sounds",
+    "path":"folders/ouvidinho_do_DJ/alien/Ambient Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"airplane_white_noise.mp3",
+  "volume":1.0,
+}

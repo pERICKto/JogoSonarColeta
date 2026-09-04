@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"machine_aggressive_whirring",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":7.0008163,
+  "exportDir":"",
+  "name":"machine_aggressive_whirring",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"machine_aggressive_whirring.mp3",
+  "volume":1.0,
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"structure_rumbling_shaking",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":24.555101,
+  "exportDir":"",
+  "name":"structure_rumbling_shaking",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"structure_rumbling_shaking.mp3",
+  "volume":1.0,
+}

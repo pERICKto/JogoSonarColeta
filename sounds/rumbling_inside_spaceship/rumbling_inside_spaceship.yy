@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"rumbling_inside_spaceship",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":80.22204,
+  "exportDir":"",
+  "name":"rumbling_inside_spaceship",
+  "parent":{
+    "name":"Ambient Sounds",
+    "path":"folders/ouvidinho_do_DJ/alien/Ambient Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"rumbling_inside_spaceship.mp3",
+  "volume":1.0,
+}

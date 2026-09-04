@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"machine_hiss_clamp",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.8285714,
+  "exportDir":"",
+  "name":"machine_hiss_clamp",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"machine_hiss_clamp.mp3",
+  "volume":1.0,
+}

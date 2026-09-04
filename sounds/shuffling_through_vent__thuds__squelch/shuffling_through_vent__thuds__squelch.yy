@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"shuffling_through_vent__thuds__squelch",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":35.056328,
+  "exportDir":"",
+  "name":"shuffling_through_vent__thuds__squelch",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"shuffling_through_vent__thuds__squelch.mp3",
+  "volume":1.0,
+}

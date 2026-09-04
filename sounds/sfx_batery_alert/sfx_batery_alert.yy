@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"sfx_batery_alert",
   "parent":{
-    "name":"ouvidinho_do_DJ",
-    "path":"folders/ouvidinho_do_DJ.yy",
+    "name":"gerais",
+    "path":"folders/ouvidinho_do_DJ/gerais.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

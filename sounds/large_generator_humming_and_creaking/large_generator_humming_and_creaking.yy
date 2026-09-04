@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"large_generator_humming_and_creaking",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":78.28898,
+  "exportDir":"",
+  "name":"large_generator_humming_and_creaking",
+  "parent":{
+    "name":"Ambient Sounds",
+    "path":"folders/ouvidinho_do_DJ/alien/Ambient Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"large_generator_humming_and_creaking.mp3",
+  "volume":1.0,
+}

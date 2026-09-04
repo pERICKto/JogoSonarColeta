@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"explosive_charge__ears_ringing",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":12.146938,
+  "exportDir":"",
+  "name":"explosive_charge__ears_ringing",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"explosive_charge__ears_ringing.mp3",
+  "volume":1.0,
+}

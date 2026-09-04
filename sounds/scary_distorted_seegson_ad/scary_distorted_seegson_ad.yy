@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"scary_distorted_seegson_ad",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":32.156734,
+  "exportDir":"",
+  "name":"scary_distorted_seegson_ad",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"scary_distorted_seegson_ad.mp3",
+  "volume":1.0,
+}

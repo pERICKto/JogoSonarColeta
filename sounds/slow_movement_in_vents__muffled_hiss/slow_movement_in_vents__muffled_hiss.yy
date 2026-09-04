@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"slow_movement_in_vents__muffled_hiss",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":9.586939,
+  "exportDir":"",
+  "name":"slow_movement_in_vents__muffled_hiss",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"slow_movement_in_vents__muffled_hiss.mp3",
+  "volume":1.0,
+}

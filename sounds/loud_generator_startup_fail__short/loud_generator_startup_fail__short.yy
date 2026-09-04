@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"loud_generator_startup_fail__short",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":17.240816,
+  "exportDir":"",
+  "name":"loud_generator_startup_fail__short",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"loud_generator_startup_fail__short.mp3",
+  "volume":1.0,
+}

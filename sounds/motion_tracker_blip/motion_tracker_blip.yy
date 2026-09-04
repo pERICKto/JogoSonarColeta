@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"motion_tracker_blip",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.49632654,
+  "exportDir":"",
+  "name":"motion_tracker_blip",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"motion_tracker_blip.mp3",
+  "volume":1.0,
+}

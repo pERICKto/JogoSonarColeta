@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"keypad_click_02",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.41580498,
+  "exportDir":"",
+  "name":"keypad_click_02",
+  "parent":{
+    "name":"gerais",
+    "path":"folders/ouvidinho_do_DJ/gerais.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"keypad_click_02.wav",
+  "volume":1.0,
+}

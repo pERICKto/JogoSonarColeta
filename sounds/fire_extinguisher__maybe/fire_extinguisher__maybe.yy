@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"fire_extinguisher__maybe",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.3322449,
+  "exportDir":"",
+  "name":"fire_extinguisher__maybe",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"fire_extinguisher__maybe.mp3",
+  "volume":1.0,
+}
