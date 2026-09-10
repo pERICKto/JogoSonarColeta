@@ -4,7 +4,7 @@ if(instance_exists(obj_CENTRAL_BUNKER)){
 	global.bateria_atual  = obj_CENTRAL_BUNKER.recarga;
 }
 if (instance_exists(obj_Sonar_player)) {
-    global.bateria_atual  -= consumo/70	//divite p or 100, pq o pcr geralmente eh 100
+    global.bateria_atual  -= consumo/50	//divite p or 100, pq o pcr geralmente eh 100
 }
 
 
