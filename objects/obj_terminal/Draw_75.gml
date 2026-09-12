@@ -52,7 +52,7 @@ else if (analise)
 	}
 	else if (global.valid > 0)
 	{
-		_string = "[scale,0.7][c_green]Analisando drone...[delay] \nAmostras analisadas:\n " + string(global.valid);
+		_string = "[scale,0.7][c_green]Analisando drone...[delay] \nAmostras analisadas:\n" + string(global.valid);
 	}
 	
     else
@@ -77,7 +77,7 @@ else if (analise)
 }
 else if (rm_check == 2)
 {
-    var _string = "[scale,0.7][c_green]local atual: \n[c_yellow]bunker[/c]\n[c_green]analises:[/c]\n[c_yellow]" + string(global.valid);
+    var _string = "[scale,0.7][c_green]local atual: [/c]\n[c_yellow]bunker[/c]\n[c_green]analises:[/c]\n[c_yellow]" + string(global.valid);
 
     if (_string != info_cache)
     {

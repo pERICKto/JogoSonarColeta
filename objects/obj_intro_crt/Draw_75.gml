@@ -9,6 +9,7 @@ if (scan_x >= gui_w) {
 }
 if (scan_y >= gui_h) {
     intro_terminou = true;
+	global.intro_pronta = true;
     if (surface_exists(surf_intro)) surface_free(surf_intro);
 	instance_destroy();
     exit;

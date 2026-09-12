@@ -56,19 +56,19 @@ else
 			}
 			else if (global.terra == 2)
 			{
-				_string = "[c_green]vidro"
+				_string = "[c_green]01001110 01000001 : 00110001 00110000 %\n01001111 :  00110110 00110000 %\n01000011 01000001 : 00110000 00110110 %\n01001101 01000111  :  00110000 00110100 %\n01010011 01001001 :  00110010 00110000 %\n01010011 01001001 :  00110010 00110000 %\nAnalise finalizada... [delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar"
 			}
 			else if (global.terra == 3)
 			{
-				_string = "[c_green]madeira"
+				_string = "[c_green]01000011 01000001 : 00110000 00110001 %\n01001111 : 00110100 00110000 %\n01000011 : 00110100 00110110 %\n01001000  : 00110000 00111001 %\n01001110 : 00110000 00110100 %\nAnalise finalizada... [delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar"
 			}
 			else if (global.terra == 4)
 			{
-				_string = "[c_green]granito"
+				_string = "[c_green]01000001 01001100 : 00110000 00111000 %\n01001111 : 00110100 00110110 %\n01001011 : 00110000 00110101 %\n01010011 01001001 : 01010011 01001001 %\n01001110 01000001 : 00110000 00110011 %\nAnalise finalizada... [delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar"
 			}
 			else if (global.terra == 5)
 			{
-				_string = "[c_green]calcario"
+				_string = "[c_green]01001111 : 00110100 00111000 %\n01000011 : 00110001 00110010 %\n01000011 01000001 : 00110100 00110000 %\nAnalise finalizada... [delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar"
 			}
 			else
 			{

@@ -4,6 +4,8 @@ left_key = keyboard_check_pressed(vk_left);
 up_key = keyboard_check_pressed(vk_up);
 dowm_key = keyboard_check_pressed(vk_down);
 
+if (global.intro_pronta)
+{
 if (!global.lendo)
 {
     //girar o sprite 90 graus a cada aperto
@@ -39,6 +41,7 @@ if (!global.lendo)
         raio = true;
         instance_create_layer(x, y, "Instances", obj_Sonar_player);
     }
+}
 }
 
 

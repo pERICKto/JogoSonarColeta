@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite7",
-    "path":"sprites/Sprite7/Sprite7.yy",
+    "name":"spr_bunkerpixel",
+    "path":"sprites/spr_bunkerpixel/spr_bunkerpixel.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -13,3 +13,6 @@ line_height = 8;       // Grossura de cada linha da TV
 // Controle da Surface e Animação
 surf_intro = -1;
 intro_terminou = false;
+
+global.intro_pronta = false;
+global.skip = false;

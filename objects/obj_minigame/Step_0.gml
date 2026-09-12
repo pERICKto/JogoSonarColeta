@@ -57,6 +57,7 @@ else
         // CONFIRMAR (Pegar a amostra - Botão de Espaço/Sonar)
         if (keyboard_check_pressed(vk_space))
         { 
+			global.skip = true;
             room_goto(destino);
         }
         

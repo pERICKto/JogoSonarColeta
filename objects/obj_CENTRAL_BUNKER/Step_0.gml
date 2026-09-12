@@ -26,7 +26,7 @@ if place_meeting(x, y, obj_player)
                     scan = true;
                     // libera pra próxima amostra e soma no total de validadas
 					global.valid += 1;
-					global.terra = "";
+					global.terra = "usado";
 					global.valid_terra = "usado";
 					scan = false;
 					estado_amostra = 0; // pronto pra validar a próxima
