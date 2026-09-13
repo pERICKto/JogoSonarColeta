@@ -15,7 +15,7 @@ tolerancia = 1.45; // margem de erro aceitável pra "encaixar"
 
 //intro 
 intro = true;
-texto_intro = scribble("[c_green]syncing with bunker...    [delay]ok\nadjusting sonar...    [delay]ok\nsyncing frequency...    [delay][c_red]fail[/c]\n\n[c_yellow]switching to manual... [delay]\n[blink]starting...   [delay,1500]");
+texto_intro = scribble("syncing with bunker...          [delay][c_green]ok[/c]\n\nadjusting proper sonar...       [delay][c_green]ok[/c]\n\nsyncing frequency...            [delay][c_red]fail[/c]\n\n[c_yellow]switching to manual sync... [delay]\n\n[blink]starting manual sync...   [delay,1300]");
 typist_intro = scribble_typist();
 typist_intro.in(0.5, 0);
 
@@ -23,13 +23,17 @@ typist_intro.in(0.5, 0);
 espera = false;
 destino = -1;
 
-texto_final_t = scribble("[c_green]manual sync...    [delay]ok\n\ndecoding... [delay][delay]\n\nsending... [delay]");
+texto_final_t = scribble("manual sync...    [delay][c_green]complete[/c]\n\ndecoding...        [delay][delay][c_green]complete[/c]\n\nsending... [delay]");
 typist_final_t = scribble_typist();
 typist_final_t.in(0.5, 0);
 
-texto_final_a = scribble("[c_green]manual sync...    [delay]ok\n\ndecoding... [delay][delay]\n\nsending... [delay]");
+texto_final_a = scribble("manual sync...    [delay][c_green]complete[/c]\n\ndecoding...        [delay][delay][c_green]complete[/c]\n\nsending... [delay]");
 typist_final_a = scribble_typist();
 typist_final_a.in(0.5, 0);
+
+texto_final_w = scribble("manual sync...    [delay][c_green]complete[/c]\n\ndecoding...        [delay][delay][c_green]complete[/c]\n\nsending... [delay]");
+typist_final_w = scribble_typist();
+typist_final_w.in(0.5, 0);
 
 //msg dos binario
 typist_binario = scribble_typist();

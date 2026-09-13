@@ -37,7 +37,7 @@ else if (analise)
 	   {
 		_string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nAmostra aparenta ser ...  [delay]\n[c_yellow]calcario\ncolete solo!...\n [delay,1500] "
 	   }
-	   else
+	   else if (global.terra == 6)
 	   {
 	   _string = "[scale,0.7][c_green]porque voce trouxe isso???\nagora o laboratorio fede\ntalvez seja melhor trocar o piloto!\n [delay,1500] "
 	   }

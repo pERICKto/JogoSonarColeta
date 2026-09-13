@@ -15,4 +15,3 @@ surf_intro = -1;
 intro_terminou = false;
 
 global.intro_pronta = false;
-global.skip = false;

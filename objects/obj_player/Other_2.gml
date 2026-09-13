@@ -4,5 +4,7 @@ global.air = "";
 global.valid = 0;
 global.binary = 0;
 global.lendo = false; //evita bug na hud confia 
-
-
+global.skip = false;
+global.valid_terra = "1";
+global.valid_air = "1";
+global.valid_water = "1";

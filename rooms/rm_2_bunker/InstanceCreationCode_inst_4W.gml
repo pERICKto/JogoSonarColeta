@@ -1,5 +1,5 @@
 //marcar persist pq o objeto pode ser destruido antes da trnsicao de cenario ser concuira (:0)
-if (global.water == "usado")
+if (global.valid_water == "usado")
 {
     instance_destroy();
 }
