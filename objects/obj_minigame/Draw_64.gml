@@ -137,7 +137,7 @@ else
         else
         {
             if (global.water == 1)
-            {
+            {// 3 * 2 / 1
                 _string = "[c_green]00110011 * 00110010\n ---------------- \n     00110001[delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar";
             }
             else if (global.water == 2)

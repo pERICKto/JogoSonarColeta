@@ -39,16 +39,60 @@ else if (analise)
 	   }
 	   else if (global.terra == 6)
 	   {
-	   _string = "[scale,0.7][c_green]porque voce trouxe isso???\nagora o laboratorio fede\ntalvez seja melhor trocar o piloto!\n [delay,1500] "
+	   _string = "[scale,0.7][c_green]porque voce trouxe isso???\nagora o laboratorio fede\nmelhor trocar o piloto!\n [delay,1500] "
 	   }
 	}
 	else if (global.air != "")
 	{
-		
+		global.erro = true; //pra mudar o sprite da hud
+       if (global.air == 2)
+	   {
+		_string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nAmostra aparenta ser ...  [delay]\n[c_yellow]restos de pinheiro\nnão parece ser util...\n [delay,1500] "
+	   }
+	   else if (global.air == 3)
+	   {
+	   _string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nAmostra aparenta ser ...  [delay]\n[c_yellow]apenas um pouco de mato\nnão parece ser util!...\n [delay,1500] "
+	   }
+	   else if (global.air == 4)
+	   {
+	   _string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nAmostra aparenta ser ...  [delay]\n[c_yellow]uma espada-de-são-jorge\nsurpreendente...\nmas não muito util... [delay,1500] "
+	   }
+	   else if (global.air == 5)
+	   {
+		_string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nAmostra aparenta ser ...  [delay]\n[c_yellow]plantas secas\nprecisamos de algo vivo!...\n [delay,1500] "
+	   }
+	   else if (global.air == 6)
+	   {
+		_string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nAmostra aparenta ser ...  [delay]\n[c_yellow]restos vegetais em decomposição\nutil mas ainda não é isso!...\n [delay,1500] "
+	   }
 	}
 	else if (global.water != "")
 	{
-	
+		global.erro = true; //pra mudar o sprite da hud
+       if (global.water == 2)
+	   {
+		_string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nAmostra vazia...[delay]\n[c_yellow]tente outra...\n [delay,1500] "
+	   }
+	   else if (global.water == 3)
+	   {
+		_string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nAmostra vazia...[delay]\n[c_yellow]tente outra...\n [delay,1500] "
+	   }
+	   else if (global.water == 4)
+	   {
+		_string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nAmostra vazia...[delay]\n[c_yellow]tente outra...\n [delay,1500] "
+	   }
+	   else if (global.water == 5)
+	   {
+		_string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nAmostra vazia...[delay]\n[c_yellow]tente outra...\n [delay,1500] "
+	   }
+	   else if (global.water == 6)
+	   {
+		_string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nisso so são pedras[delay]\n[c_yellow]precisamos de agua...\n [delay,1500] "
+	   }
+	   else if (global.water == 7)
+	   {
+		_string = "[scale,0.7][c_green]Analisando amostra...[delay] \nAnalise completa... [delay]\nisso so são pedras[delay]\n[c_yellow]precisamos de agua...\n [delay,1500] "
+	   }
 	}
 	else if (global.valid > 0)
 	{
