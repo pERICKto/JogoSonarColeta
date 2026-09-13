@@ -138,31 +138,31 @@ else
         {
             if (global.water == 1)
             {
-                _string = "[c_green]00110101 * 00110010\n ---------------- \n     00110001[delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar";
+                _string = "[c_green]00110011 * 00110010\n ---------------- \n     00110001[delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar";
             }
             else if (global.water == 2)
             {
-                _string = "[c_green]// binario 2 da agua aqui[delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar";
+                _string = "[c_green]00110010 * 00110101\n ---------------- \n     00110001[delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar";
             }
             else if (global.water == 3)
             {
-                _string = "[c_green]// binario 3 da agua aqui[delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar";
+                _string = "[c_green]00110010 * 00110101\n ---------------- \n     00110001[delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar";
             }
             else if (global.water == 4)
             {
-                _string = "[c_green]// binario 4 da agua aqui[delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar";
+                _string = "[c_green]00110010 * 00110001 00110000\n ---------------- \n     00110010[delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar";
             }
             else if (global.water == 5)
             {
-                _string = "[c_green]// binario 5 da agua aqui[delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar";
+                _string = "[c_green]00110010 * 00110001 00110000\n ---------------- \n     00110010[delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar";
             }
             else if (global.water == 6)
             {
-                _string = "[c_green]smelly organic material... \nbetter leave it alone";
+                _string = "[c_green]just some debris[delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar";
             }
 			else if (global.water == 7)
 			{
-				_string = "[c_green]smelly organic material... \nbetter leave it alone";
+				_string = "[c_green]a bunch of rock and metal[delay]\n\n[c_yellow][blink]sonar = coletar \n\noutro = largar";
 			}
 
             if (_string != binario_cache)
