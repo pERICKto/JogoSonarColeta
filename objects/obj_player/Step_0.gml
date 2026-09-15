@@ -9,10 +9,10 @@ for (var i = 4; i < 12; i++) {
 
 
 right_key = keyboard_check_pressed(vk_right) || (pad != -1 && gamepad_button_check_pressed(pad, 3));
-left_key  = keyboard_check_pressed(vk_left)  || (pad != -1 && gamepad_button_check_pressed(pad, 2));
+left_key  = keyboard_check_pressed(vk_left)  || (pad != -1 && gamepad_button_check_pressed(pad, 1));
 
 var up_check   = keyboard_check(vk_up)   || (pad != -1 && gamepad_button_check(pad, 0));
-var down_check = keyboard_check(vk_down) || (pad != -1 && gamepad_button_check(pad, 1));
+var down_check = keyboard_check(vk_down) || (pad != -1 && gamepad_button_check(pad, 2));
 
 var sonar_key = keyboard_check_pressed(vk_space) || (pad != -1 && gamepad_button_check_pressed(pad, 4));
 
