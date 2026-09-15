@@ -1,3 +1,4 @@
+//este objeto faz a intro horizontal estilo frames de televisao CRT
 // Tamanho da tela
 gui_w = display_get_gui_width();
 gui_h = display_get_gui_height();

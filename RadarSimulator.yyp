@@ -10,7 +10,6 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"rfid","folderPath":"folders/rfid.yy","name":"rfid","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"minimage","folderPath":"folders/minimage.yy","name":"minimage","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obj","folderPath":"folders/minimage/obj.yy","name":"obj","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obj","folderPath":"folders/obj.yy","name":"obj","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -19,6 +18,7 @@
     {"$GMFolder":"","%Name":"Ambient Sounds","folderPath":"folders/ouvidinho_do_DJ/alien/Ambient Sounds.yy","name":"Ambient Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sound Effects","folderPath":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy","name":"Sound Effects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"gerais","folderPath":"folders/ouvidinho_do_DJ/gerais.yy","name":"gerais","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"rfid","folderPath":"folders/rfid.yy","name":"rfid","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"room","folderPath":"folders/room.yy","name":"room","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scribble","folderPath":"folders/Scribble.yy","name":"Scribble","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"(System - don't call these functions)","folderPath":"folders/Scribble/(System - don't call these functions).yy","name":"(System - don't call these functions)","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -67,6 +67,7 @@
     {"id":{"name":"obj_HUD_inferior","path":"objects/obj_HUD_inferior/obj_HUD_inferior.yy",},},
     {"id":{"name":"obj_intro_crt","path":"objects/obj_intro_crt/obj_intro_crt.yy",},},
     {"id":{"name":"Obj_intro_da_intro","path":"objects/Obj_intro_da_intro/Obj_intro_da_intro.yy",},},
+    {"id":{"name":"obj_junglebox","path":"objects/obj_junglebox/obj_junglebox.yy",},},
     {"id":{"name":"obj_liberar_rfid","path":"objects/obj_liberar_rfid/obj_liberar_rfid.yy",},},
     {"id":{"name":"obj_minigame","path":"objects/obj_minigame/obj_minigame.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
