@@ -8,7 +8,7 @@ if (instance_exists(obj_Sonar_player)) {
 }
 
 
-if (global.bateria_atual  >= 0 && global.bateria_atual  <= 999) {
+if (global.bateria_atual  >= 100 && global.bateria_atual  <= 999) {
 		batery_estado = 1
 			if(!audio_is_playing(sfx_alarm4)){
 	audio_play_sound(sfx_alarm4,1,false)
@@ -34,3 +34,6 @@ if (global.bateria_atual  >= 2000 && global.bateria_atual  <= 3499) {
 if (global.bateria_atual  > 3500) {
 		batery_estado = 4;
 }
+
+if (global.bateria_atual >= 0 && global.bateria_atual <= 99)
+{ batery_estado = 5 }

@@ -14,6 +14,7 @@ if (instance_exists(obj_batery)) {
     if (penalidade == 4 || penalidade == 3) pcr_max = 100;
     if (penalidade == 2) pcr_max = 70;
     if (penalidade == 1) pcr_max = 50;
+	if (penalidade == 5) pcr_max = 10;
 }
 
 
