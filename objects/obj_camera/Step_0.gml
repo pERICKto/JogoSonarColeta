@@ -99,3 +99,7 @@ for (var i = ds_list_size(lista_fade) - 1; i >= 0; i--)
         ds_list_delete(lista_fade, i);
     }
 }
+
+if (global.player_is_moving == true) {
+    // point_distance calcula quantos pixels o player andou exatemente neste frame
+}

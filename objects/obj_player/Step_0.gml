@@ -38,16 +38,31 @@ if (global.intro_pronta)
         // Andar
         x += xspd;
         y += yspd;
+		
+// Colisão rústica
+if (place_meeting(x, y + 9, obj_wall))
+{
+    y -= yspd; // Cancela o movimento
+    yspd = 0;
+}
+if (place_meeting(x - 9, y, obj_wall))
+{
+    x -= xspd; // Cancela o movimento
+    xspd = 0; 
+}
 
-        // Colisão rústica
-        if (place_meeting(x, y + 9, obj_wall))
-        {
-            y -= yspd;
-        }
-        if (place_meeting(x - 9, y, obj_wall))
-        {
-            x -= xspd;
-        }
+		//far barulho quando anda e contabiliza distancia para a HUD
+if (xspd != 0 || yspd != 0) {
+    global.player_is_moving = true;
+    global.distancia_percorrida += point_distance(0, 0, xspd, yspd);
+    
+    if (!audio_is_playing(sfx_39__Propeller_Noise)) {
+        audio_play_sound(sfx_39__Propeller_Noise, 1, false);
+    }
+} else {
+    global.player_is_moving = false;
+    audio_stop_sound(sfx_39__Propeller_Noise);
+}
 
         // Ativação do Sonar
         if (sonar_key)
