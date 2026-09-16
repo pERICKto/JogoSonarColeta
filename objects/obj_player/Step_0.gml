@@ -52,18 +52,22 @@ if (global.intro_pronta)
         // Ativação do Sonar
         if (sonar_key)
         {
+			audio_play_sound(motion_detector_loop1,1,false,0.8);
             raio = true;
             instance_create_layer(x, y, "Instances", obj_Sonar_player);
         }
     }
 }
 
+
 // Verificação do Bunker
 if (place_meeting(x, y, obj_CENTRAL_BUNKER))
 {
+	visible = false;
     bunker = true;
 }
 else
 {
+	visible = true;
     bunker = false;
 }

@@ -15,7 +15,7 @@ tolerancia = 1.45; // margem de erro aceitável pra "encaixar"
 
 //intro 
 intro = true;
-texto_intro = scribble("syncing with bunker...          [delay][c_green]ok[/c]\n\nadjusting proper sonar...       [delay][c_green]ok[/c]\n\nsyncing frequency...            [delay][c_red]fail[/c]\n\n[c_yellow]switching to manual sync... [delay]\n\n[blink]starting manual sync...   [delay,1300]");
+texto_intro = scribble("syncing with bunker...          [delay][c_green]ok[/c]\nadjusting proper sonar...       [delay][c_green]ok[/c]\nsyncing frequency...            [delay][c_red]FAIL[/c]\n\n[c_yellow]switching to manual sync... [delay]\n\n[blink]starting manual sync...   [delay,1300]");
 typist_intro = scribble_typist();
 typist_intro.in(0.5, 0);
 

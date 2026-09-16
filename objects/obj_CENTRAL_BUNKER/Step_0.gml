@@ -1,5 +1,14 @@
+if (!place_meeting(x,y,obj_player))
+{
+	portinha = false;
+}
 if place_meeting(x, y, obj_player)
 {
+	if (!portinha)
+	{
+		audio_play_sound(keypad_open_panel_01,1,false,1);
+		portinha = true;
+	}
     // sistema de regarga de pilha do bunker!!
     if (global.bateria_atual <= 4000) {
         recarga += 10;
@@ -101,3 +110,4 @@ if place_meeting(x, y, obj_player)
         if (!audio_is_playing(sfx_Alarm5)) { audio_play_sound(sfx_Alarm5, 1, false); }
     }
 }
+
