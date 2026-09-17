@@ -96,7 +96,7 @@ else if (analise)
 	}
 	else if (global.valid > 0)
 	{
-		_string = "[scale,0.7][c_green]Analisando drone...[delay] \nAmostras analisadas:\n" + string(global.valid);
+		_string = "[scale,0.7][c_green]Analisando drone...[delay] \nAmostras analisadas:\n" + string(global.valid) + "\n                                                        ";
 	}
 	
     else

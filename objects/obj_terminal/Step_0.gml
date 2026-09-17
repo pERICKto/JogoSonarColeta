@@ -1,4 +1,5 @@
-
+if (!global.sequencia_final)
+{
 if (instance_exists(obj_transition) || instance_exists(obj_intro_crt))
 {
     // transição rolando -> limpa tudo
@@ -38,4 +39,10 @@ else
 if (!analise)
 {
     global.lendo = false;
+}
+}
+
+else if (global.sequencia_final) 
+{
+	rm_check = 0;
 }
