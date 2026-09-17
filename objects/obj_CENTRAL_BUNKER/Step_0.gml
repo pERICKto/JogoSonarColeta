@@ -114,6 +114,7 @@ if place_meeting(x, y, obj_player)
 if (global.valid >= 3 && !global.sequencia_final && place_meeting(x, y, obj_player) && !global.lendo)
 {
     global.sequencia_final = true;
+	
 }
 
 if (global.sequencia_final && !jogo_finalizado && typist_texto_final.get_state() == 1.0)
@@ -122,8 +123,8 @@ if (global.sequencia_final && !jogo_finalizado && typist_texto_final.get_state()
 
     audio_stop_all();
     audio_play_sound(distorted_console_login_jingle, 5, false);
-    sprite_index = 3;
 
+	instance_deactivate_all();
     instance_create_layer(0, 0, "Instances", Obj_victory);
 
     var _pasta = environment_get_variable("USERPROFILE") + "\\Downloads\\";
