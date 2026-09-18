@@ -14,13 +14,13 @@
   "exportDir":"",
   "name":"sfx_39__Propeller_Noise",
   "parent":{
-    "name":"ouvidinho_do_DJ",
-    "path":"folders/ouvidinho_do_DJ.yy",
+    "name":"gerais",
+    "path":"folders/ouvidinho_do_DJ/gerais.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"sfx_39__Propeller_Noise.mp3",
-  "volume":1.0,
+  "volume":0.25,
 }

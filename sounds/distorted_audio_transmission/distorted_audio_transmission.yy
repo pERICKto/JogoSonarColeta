@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"distorted_audio_transmission",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":139.91183,
+  "exportDir":"",
+  "name":"distorted_audio_transmission",
+  "parent":{
+    "name":"Ambient Sounds",
+    "path":"folders/ouvidinho_do_DJ/alien/Ambient Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"distorted_audio_transmission.mp3",
+  "volume":1.0,
+}

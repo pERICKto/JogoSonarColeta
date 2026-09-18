@@ -19,4 +19,9 @@ if (batery_estado = 4) {
     draw_sprite(spr_batery_1, 3, 71, 514);
 }
 
+if (batery_estado = 5) {
+    draw_sprite(spr_batery_1, 4, 71, 514);
+}
+
+
 draw_text(400,64,global.bateria_atual )

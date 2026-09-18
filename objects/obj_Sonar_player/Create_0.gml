@@ -8,7 +8,7 @@ wave_width = 8;         // Espessura do anel
 alpha = 1.0;
 fade_speed = 0.02; // Velocidade com que o ponto desaparece
 
-// busca ÚNICA: pega tudo que existe dentro do alcance máximo, uma vez só
+// pega tudo que existe dentro do alcance máximo, uma vez só
 lista_paredes = ds_list_create();
 lista_pontos = ds_list_create();
 collision_circle_list(x, y, max_radius, obj_wall, false, true, lista_paredes, false);
@@ -22,7 +22,7 @@ for (var i = 0; i < n_paredes; i++) {
 
 n_pontos = ds_list_size(lista_pontos);
 dist_pontos = array_create(n_pontos);
-pontos_visiveis = array_create(n_pontos); // NOVO: se tem parede no caminho ou não
+pontos_visiveis = array_create(n_pontos); // se tem parede no caminho ou não
 for (var i = 0; i < n_pontos; i++) {
     var _p = lista_pontos[| i];
     dist_pontos[i] = point_distance(x, y, _p.x, _p.y);

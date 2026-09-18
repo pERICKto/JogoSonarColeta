@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"distorted_welcome_jingle",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":4.1534696,
+  "exportDir":"",
+  "name":"distorted_welcome_jingle",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"distorted_welcome_jingle.mp3",
+  "volume":0.42,
+}

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"loud_metal_scraping__reverb__medium",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":21.080816,
+  "exportDir":"",
+  "name":"loud_metal_scraping__reverb__medium",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"loud_metal_scraping__reverb__medium.mp3",
+  "volume":1.0,
+}

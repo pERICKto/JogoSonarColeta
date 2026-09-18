@@ -1,4 +1,6 @@
-if (instance_exists(obj_transition))
+if (!global.sequencia_final)
+{
+if (instance_exists(obj_transition) || instance_exists(obj_intro_crt))
 {
     // transição rolando -> limpa tudo
     rm_check = 0;
@@ -26,9 +28,21 @@ else
         rm_check = 4;
         analise = false;
     }
-    else
+	
+	else
     {
         rm_check = 0;
         analise = false;
     }
+}
+
+if (!analise)
+{
+    global.lendo = false;
+}
+}
+
+else if (global.sequencia_final) 
+{
+	rm_check = 0;
 }

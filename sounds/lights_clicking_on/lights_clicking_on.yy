@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"lights_clicking_on",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":4.2840815,
+  "exportDir":"",
+  "name":"lights_clicking_on",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"lights_clicking_on.mp3",
+  "volume":1.0,
+}

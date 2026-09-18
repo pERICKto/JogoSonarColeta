@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"klaxon_alarm_muffled",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":249.78285,
+  "exportDir":"",
+  "name":"klaxon_alarm_muffled",
+  "parent":{
+    "name":"Ambient Sounds",
+    "path":"folders/ouvidinho_do_DJ/alien/Ambient Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"klaxon_alarm_muffled.mp3",
+  "volume":1.0,
+}

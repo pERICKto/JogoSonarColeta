@@ -14,6 +14,7 @@ if (instance_exists(obj_batery)) {
     if (penalidade == 4 || penalidade == 3) pcr_max = 100;
     if (penalidade == 2) pcr_max = 70;
     if (penalidade == 1) pcr_max = 50;
+	if (penalidade == 5) pcr_max = 10;
 }
 
 
@@ -98,4 +99,8 @@ for (var i = ds_list_size(lista_fade) - 1; i >= 0; i--)
         _inst.fading = false; // libera pra poder entrar na lista de novo no futuro
         ds_list_delete(lista_fade, i);
     }
+}
+
+if (global.player_is_moving == true) {
+    // point_distance calcula quantos pixels o player andou exatemente neste frame
 }

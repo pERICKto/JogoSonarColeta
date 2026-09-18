@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"zap_power_down",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":3.5004082,
+  "exportDir":"",
+  "name":"zap_power_down",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"zap_power_down.mp3",
+  "volume":1.0,
+}

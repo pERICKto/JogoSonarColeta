@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"machinery_whirring__hangar",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":159.73877,
+  "exportDir":"",
+  "name":"machinery_whirring__hangar",
+  "parent":{
+    "name":"Ambient Sounds",
+    "path":"folders/ouvidinho_do_DJ/alien/Ambient Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"machinery_whirring__hangar.mp3",
+  "volume":1.0,
+}

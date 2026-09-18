@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"wet_place__surrounded_by_monsters",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":39.915104,
+  "exportDir":"",
+  "name":"wet_place__surrounded_by_monsters",
+  "parent":{
+    "name":"Ambient Sounds",
+    "path":"folders/ouvidinho_do_DJ/alien/Ambient Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"wet_place__surrounded_by_monsters.mp3",
+  "volume":1.0,
+}

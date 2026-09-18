@@ -1,0 +1,1 @@
+global.valid = 3;

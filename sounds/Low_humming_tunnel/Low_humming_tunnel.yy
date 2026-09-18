@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Low_humming_tunnel",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":10.997551,
+  "exportDir":"",
+  "name":"Low_humming_tunnel",
+  "parent":{
+    "name":"Ambient Sounds",
+    "path":"folders/ouvidinho_do_DJ/alien/Ambient Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Low_humming_tunnel.mp3",
+  "volume":1.0,
+}

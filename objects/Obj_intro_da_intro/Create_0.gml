@@ -1,6 +1,6 @@
-tocou_ligando = false
 
-	
+
+tocou_ligando = false	
 estado_tv = 0; 
 
 

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"gross_coffee_maker",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":16.32653,
+  "exportDir":"",
+  "name":"gross_coffee_maker",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"gross_coffee_maker.mp3",
+  "volume":1.0,
+}

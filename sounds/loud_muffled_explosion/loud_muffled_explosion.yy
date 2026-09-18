@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"loud_muffled_explosion",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":4.231837,
+  "exportDir":"",
+  "name":"loud_muffled_explosion",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"loud_muffled_explosion.mp3",
+  "volume":1.0,
+}

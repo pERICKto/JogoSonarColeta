@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"rumbling_gets_louder__then_silent__medium",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":26.932245,
+  "exportDir":"",
+  "name":"rumbling_gets_louder__then_silent__medium",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/ouvidinho_do_DJ/alien/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"rumbling_gets_louder__then_silent__medium.mp3",
+  "volume":1.0,
+}
