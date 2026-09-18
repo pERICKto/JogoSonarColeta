@@ -39,6 +39,17 @@ else {
         if (vel_mais)  player_velocidade += 0.5;
         if (vel_menos) player_velocidade -= 0.5;
 
+        // 3. VELOCIDADE/FASE (Encoder 8 e 7 OU Teclas W e S)
+        var vel_mais  = keyboard_check(ord("W")) || (pad != -1 && gamepad_button_check(pad, 8));
+        var vel_menos = keyboard_check(ord("S")) || (pad != -1 && gamepad_button_check(pad, 7));
+        
+        if (vel_mais)  player_velocidade += 0.5;
+        if (vel_menos) player_velocidade -= 0.5;
+
+
+        // -------------------------------------------------------------
+        // CÁLCULOS DA ONDA (Mantidos exatamente iguais)
+        // -------------------------------------------------------------
         player_fase += player_velocidade * 0.05;  
         alvo_fase += alvo_velocidade * 0.05;
 
@@ -49,19 +60,18 @@ else {
         var diff_freq = abs(player_frequencia - alvo_frequencia);
         var diff_vel  = abs(player_velocidade - alvo_velocidade);
         var diff_fase = abs(player_fase - alvo_fase);
+        
         diff_fase = diff_fase mod (2 * pi);
         if (diff_fase > pi) diff_fase = (2 * pi) - diff_fase;
 
-        if (diff_amp <= tolerancia && diff_freq <= 0.007 && diff_fase <= 0.5 && diff_vel <= 0.4)
-        {
-            if (global.binary == 1)
-            {
+        // VALIDAÇÃO DE SINTONIA
+        if (diff_amp <= tolerancia && diff_freq <= 0.007 && diff_fase <= 0.5 && diff_vel <= 0.4) {
+            if (global.binary == 1) {
                 espera = true;
                 destino = rm_1_terra;
                 global.binary -= 1;
             }
-            else if (global.binary == 2)
-            {
+            else if (global.binary == 2) {
                 espera = true;
                 destino = rm_3_air;
                 global.binary -= 2;
