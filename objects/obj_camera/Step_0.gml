@@ -12,7 +12,7 @@ var pcr_max = 100; // Começa assumindo 100 por padrão
 if (instance_exists(obj_batery)) {
     penalidade = obj_batery.batery_estado;
     if (penalidade == 4 || penalidade == 3) pcr_max = 100;
-    if (penalidade == 2) pcr_max = 70;
+    if (penalidade == 2) pcr_max = 75;
     if (penalidade == 1) pcr_max = 50;
 	if (penalidade == 5) pcr_max = 10;
 }
@@ -55,7 +55,8 @@ else {
     } 
     else if (pcr >= 77) {
         cor_sonar_raio_hud = c_yellow;
-    } 
+    }
+	
     else {
         cor_sonar_raio_hud = c_red;
     }

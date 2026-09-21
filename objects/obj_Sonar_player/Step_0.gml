@@ -4,29 +4,49 @@ radius += expand_speed;
 for (var i = 0; i < n_paredes; i++) {
     if (dist_paredes[i] <= radius) {
         var _inst = lista_paredes[| i];
-        if (instance_exists(_inst) && _inst.image_alpha != 1) {
+        
+        // CORREÇÃO: Confia apenas no "fading" para não prender o brilho em 1.0
+        if (instance_exists(_inst) && !_inst.fading) {
             _inst.image_alpha = 1;
-            if (!_inst.fading) {
-                _inst.fading = true;
-                ds_list_add(obj_camera.lista_fade, _inst);
-            }
+            _inst.fading = true;
+            ds_list_add(obj_camera.lista_fade, _inst); // Manda para a câmera
         }
     }
 }
 
 // PONTOS
 for (var i = 0; i < n_pontos; i++) {
-    // só revela se: já entrou no raio E não tem parede bloqueando a visão
     if (dist_pontos[i] <= radius && pontos_visiveis[i]) {
         var _inst = lista_pontos[| i];
-        if (instance_exists(_inst) && _inst.image_alpha != 0.9) {
+        
+        // CORREÇÃO: Faz os pontos irem para a mesma lista de apagamento
+        if (instance_exists(_inst) && !_inst.fading) {
             _inst.image_alpha = 0.9;
-            cor_sonar = c_yellow; // Muda pra amarelo
+            _inst.fading = true;
+            cor_sonar = c_yellow; 
+            ds_list_add(obj_camera.lista_fade, _inst); // Manda para a câmera
         }
     }
 }
+var _tamanho = ds_list_size(lista_fade);
 
-if (radius >= max_radius)
-{
+for (var i = _tamanho - 1; i >= 0; i--) {
+    var _inst = lista_fade[| i];
+
+    if (instance_exists(_inst)) {
+        _inst.image_alpha -= fade_speed; // Vai abaixando o alpha imediatamente
+        
+        if (_inst.image_alpha <= 0) {
+            _inst.image_alpha = 0;
+            _inst.fading = false;
+            ds_list_delete(lista_fade, i);
+        }
+    } 
+    else {
+        ds_list_delete(lista_fade, i);
+    }
+}
+// Destrói imediatamente, sem estragar as outras partes do seu código
+if (radius >= max_radius) {
     instance_destroy();
 }
